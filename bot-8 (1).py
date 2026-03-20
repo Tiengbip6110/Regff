@@ -125,7 +125,7 @@ def add_user(message):
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     admin_id = message.from_user.id
@@ -187,12 +187,12 @@ def remove_user(message):
 
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     if len(message.text.split()) == 1:
@@ -242,12 +242,12 @@ def user_profile(message):
 
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     user_id = message.from_user.id
@@ -299,12 +299,12 @@ def show_user_id(message):
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     user_id = message.from_user.id
@@ -371,12 +371,12 @@ def detailed_weather_info(message):
 
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Lấy địa điểm từ các đối số lệnh
@@ -415,12 +415,12 @@ def viewtiktok_command(message):
 
     # Check if the chat is a group or supergroup
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Check if the chat ID is allowed
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     args = message.text.split()
@@ -485,12 +485,12 @@ def viewtiktok_command(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra xem người gửi có phải là admin hoặc thành viên VIP không
@@ -546,7 +546,7 @@ def viewtiktok_command(message):
 
 
 
-@bot.message_handler(commands=['muaplan', 'muaplan@VPSVANMANHGAMINGBOT'])
+@bot.message_handler(commands=['muaplan', 'muaplan@swedopen_bot'])
 def purchase_plan(message):
     user_id = message.from_user.id
     # Thay thế các giá trị sau bằng thông tin thanh toán của bạn
@@ -601,12 +601,12 @@ def switch_language(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     global current_language
@@ -691,11 +691,11 @@ def lenh(message):
 
 👉 **NHÓM TLE GIAO LƯU :** 👈
 
-👉 https://t.me/botvipvc 👈
+👉 https://t.me/+glvo1XjAMVk4YmNl 👈
 
 👉 **NHÓM TLE GIAO LƯU :** 👈
 
-👉 https://t.me/botvipfc 👈
+👉 https://t.me/+glvo1XjAMVk4YmNl 👈
 
 👉 **4G Giá Rẻ Học Sinh Và Sinh Viên Đều Có Thể Mua Nha:** 👈
 
@@ -777,11 +777,11 @@ def lenh(message):
 
 👉 **NHÓM TLE GIAO LƯU :** 👈
 
-👉 https://t.me/botvipvc 👈
+👉 https://t.me/+glvo1XjAMVk4YmNl 👈
 
 👉 **NHÓM TLE GIAO LƯU :** 👈
 
-👉 https://t.me/botvipfc 👈
+👉 https://t.me/+glvo1XjAMVk4YmNl 👈
 
 👉 **4G Giá Rẻ Học Sinh Và Sinh Viên Đều Có Thể Mua Nha:** 👈
 
@@ -809,17 +809,17 @@ https://files.catbox.moe/0jw5et.mp4
 
 
 
-@bot.message_handler(commands=['c25vip', 'c25vip@VPSVANMANHGAMINGBOT'])
+@bot.message_handler(commands=['c25vip', 'c25vip@swedopen_bot'])
 def lenh(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     help_text = '''
@@ -867,11 +867,11 @@ def lenh(message):
 
 👉 **NHÓM TLE GIAO LƯU :** 👈
 
-👉 https://t.me/botvipvc 👈
+👉 https://t.me/+glvo1XjAMVk4YmNl 👈
 
 👉 **NHÓM TLE GIAO LƯU :** 👈
 
-👉 https://t.me/botvipfc 👈
+👉 https://t.me/+glvo1XjAMVk4YmNl 👈
 
 👉 **4G Giá Rẻ Học Sinh Và Sinh Viên Đều Có Thể Mua Nha:** 👈
 
@@ -898,17 +898,17 @@ def lenh(message):
 
 
 
-@bot.message_handler(commands=['chubot', 'chubot@VPSVANMANHGAMINGBOT'])
+@bot.message_handler(commands=['chubot', 'chubot@swedopen_bot'])
 def lenh(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     help_text = '''
@@ -916,7 +916,7 @@ def lenh(message):
 🤖 **Chủ BOT Đây Nha:>** 🤖
 
 🔰 Liên hệ chủ bot: https://t.me/@Vpsvanmanhgaming
-🔰 Link Vào Nhóm: https://t.me/botvipvc
+🔰 Link Vào Nhóm: https://t.me/+glvo1XjAMVk4YmNl
 🔰 Lưu Ý: BOT Chỉ Hoạt Động Được Trên Nhóm!👉 **Số Điện Thoại Zalo Để Thuê Nha:** 👈
 
 👉 0559140928 👈
@@ -935,11 +935,11 @@ def lenh(message):
 
 👉 **NHÓM TLE GIAO LƯU :** 👈
 
-👉 https://t.me/botvipvc 👈
+👉 https://t.me/+glvo1XjAMVk4YmNl 👈
 
 👉 **NHÓM TLE GIAO LƯU :** 👈
 
-👉 https://t.me/botvipfc 👈
+👉 https://t.me/+glvo1XjAMVk4YmNl 👈
 
 👉 **4G Giá Rẻ Học Sinh Và Sinh Viên Đều Có Thể Mua Nha:** 👈
 
@@ -966,31 +966,31 @@ def lenh(message):
 
 
 
-@bot.message_handler(commands=['4gvpsvanmanhgaming', '4gvpsvanmanhgaming@VPSVANMANHGAMINGBOT'])
+@bot.message_handler(commands=['4gvpsvanmanhgaming', '4gvpsvanmanhgaming@swedopen_bot'])
 def lenh(message):
 
         # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '🚫 **Trộm bot à?** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Trộm bot à?** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     video_url = "https://files.catbox.moe/bdcwme.mp4"  # Thay thế bằng URL thực tế của video
     help_text = '''
 🤖 **Chủ BOT Đây Nha:** 🤖
 🔹 **Liên Hệ Chủ Bot:** https://t.me/@Vpsvanmanhgaming
-🔹 **Link Vào Nhóm:** https://t.me/botvipvc
+🔹 **Link Vào Nhóm:** https://t.me/+glvo1XjAMVk4YmNl
 🔹 **Lưu Ý:** BOT Chỉ Hoạt Động Trong Nhóm!
 📞 **Số Điện Thoại Zalo Để Thuê:** 0559140928
 🔗 **Link Facebook Để Thuê:** https://facebook.com/profile.php?id=100072182542348
 📱 **Link TikTok Để Thuê:** https://www.tiktok.com/@kecodon7103
 🔗 **LINK TLE ĐỂ THUÊ:** https://t.me/Vpsvanmanhgaming
-🌟 **NHÓM TLE GIAO LƯU:** https://t.me/botvipvc
-🌟 **NHÓM TLE GIAO LƯU KHÁC:** https://t.me/botvipfc
+🌟 **NHÓM TLE GIAO LƯU:** https://t.me/+glvo1XjAMVk4YmNl
+🌟 **NHÓM TLE GIAO LƯU KHÁC:** https://t.me/+glvo1XjAMVk4YmNl
 🚀 **Admin Cung Cấp Dịch Vụ 4G, 5G VPN Giá Rẻ Nhất** 😎✨
 🔹 **Website VPN:** https://4gvpsvanmanhgaming.click 💻
 🔸 **Rẻ Nhất Chỉ Từ 7k 💸** - Tốc Độ Cực Mạnh, Nhiều GB ⚡
@@ -1012,7 +1012,7 @@ https://files.catbox.moe/bdcwme.mp4
 
 
 
-@bot.message_handler(commands=['start', 'start@VPSVANMANHGAMINGBOT'])
+@bot.message_handler(commands=['start', 'start@swedopen_bot'])
 def lenh(message):
 
     # Kiểm tra nếu bot đang hoạt động
@@ -1022,12 +1022,12 @@ def lenh(message):
 
     # Kiểm tra nếu lệnh được thực hiện trong nhóm hoặc siêu nhóm
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     help_text = '''
@@ -1118,19 +1118,19 @@ def spam(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     global last_sms_time
     
     # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     user_id = message.from_user.id
@@ -1203,12 +1203,12 @@ def spam(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     global last_spam_time
@@ -1221,7 +1221,7 @@ def spam(message):
     
     # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     # Kiểm tra thời gian giữa hai lần sử dụng lệnh /spam
@@ -1290,12 +1290,12 @@ def get_facebook_avatar(message: Message):
 
     # Check if the chat is not a group or supergroup
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Check if the chat ID is not allowed
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Check the format of the command
@@ -1355,12 +1355,12 @@ def ddos(message):
 
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Tin nhắn hướng dẫn
@@ -1444,12 +1444,12 @@ def perform_attack(message):
 
     # Check if command is issued in a group or supergroup
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Check if the group ID is allowed
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Cooldown check
@@ -1550,7 +1550,7 @@ def perform_attack(message):
             f'↣ 𝗧𝗶𝗺𝗲 ⏱: [ {duration}s ]\n'
             f'↣ 𝗣𝗹𝗮𝗻 💵: [ {price} ] \n'
             f'↣ Check_Host 🔗: [ {check_host_url} ] \n'
-            f'↣ 𝗕𝗼𝘁 🤖: @VPSVANMANHGAMINGBOT \n'
+            f'↣ 𝗕𝗼𝘁 🤖: @swedopen_bot \n'
             f'↣ 𝗢𝘄𝗻𝗲𝗿 👑 : ➤ @Vpsvanmanhgaming💳💲 \n'
             f'↣ VPS Giá Rẻ 💳💲: httpsvpsvanmanhgaming.click \n\n'
         )
@@ -1575,12 +1575,12 @@ def ddos(message):
 
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra quyền admin
@@ -1625,12 +1625,12 @@ def perform_attack(message):
 
     # Kiểm tra nếu lệnh được thực hiện trong nhóm hoặc siêu nhóm
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra quyền admin
@@ -1688,7 +1688,7 @@ def perform_attack(message):
         f'↣ 𝗧𝗶𝗺𝗲 ⏱: [ {duration}s ]\n'
         f'↣ 𝗣𝗹𝗮𝗻 💵: [ ADMIN ]\n'
         f'↣ Check_Host 🔗: [ {check_host_url} ]\n'
-        f'↣ 𝗕𝗼𝘁 🤖: @VPSVANMANHGAMINGBOT\n'
+        f'↣ 𝗕𝗼𝘁 🤖: @swedopen_bot\n'
         f'↣ 𝗢𝘄𝗻𝗲𝗿 👑: @Vpsvanmanhgaming💳💲\n'
         f'↣ Shop4G 💳💲: https://4gvpsvanmanhgaming.click\n'
         f'↣ VPS Giá Rẻ 💳💲: https://httpsvpsvanmanhgaming.click\n'
@@ -1703,12 +1703,12 @@ def donate(message):
 
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
         
     reply_text = """
@@ -1742,12 +1742,12 @@ def fb(message):
 
     # Kiểm tra nếu lệnh được thực hiện trong nhóm hoặc siêu nhóm
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     if len(message.text.split()) == 1:
@@ -1794,12 +1794,12 @@ def search_youtube(message: Message):
 
     # Check if the chat is not a group or supergroup
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Check if the chat ID is not allowed
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     # Get the search keyword from the message
@@ -1850,12 +1850,12 @@ def handle_capcut(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     try: 
@@ -1895,12 +1895,12 @@ def luuvideo_tiktok(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     if len(message.text.split()) == 1:
@@ -1944,12 +1944,12 @@ def check_ifytb(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 
@@ -2028,12 +2028,12 @@ def handle_tiktok(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     if len(message.text.split()) == 1:
@@ -2073,12 +2073,12 @@ def anhh_gai(message):
     
     # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '🚫 **Trộm bot à?** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Trộm bot à?** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     try:
@@ -2121,12 +2121,12 @@ def anhh_gai(message):
     
     # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '🚫 **Trộm bot à?** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Trộm bot à?** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     try:
@@ -2169,12 +2169,12 @@ def anhh_gai(message):
     
     # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Xin Lỗi!** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, '🚫 **Trộm bot à?** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/botvipvc')
+        bot.reply_to(message, '🚫 **Trộm bot à?** 🚫\n>> Tôi Chỉ Hoạt Động Trong Nhóm. Hãy tham gia nhóm tại: https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     try:
@@ -2213,12 +2213,12 @@ def vdgai(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     try:
@@ -2260,12 +2260,12 @@ def vdgai(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     try:
@@ -2306,12 +2306,12 @@ def gpt4_query(message):
 
     # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     try:
@@ -2363,12 +2363,12 @@ def ask(message):
 
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Lấy thông tin người dùng từ message
@@ -2433,12 +2433,12 @@ def check_freefire_account(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 
@@ -2484,12 +2484,12 @@ def check_cpu(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     user_id = message.from_user.id
@@ -2578,12 +2578,12 @@ def infoip(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     # Trích xuất nội dung từ tin nhắn
@@ -2636,12 +2636,12 @@ def check_ip(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     try:
         if len(message.text.split()) != 2:
@@ -2686,12 +2686,12 @@ def code(message):
 
     # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type not in ["group", "supergroup"]:
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Kiểm tra cú pháp của lệnh
@@ -2765,12 +2765,12 @@ def check_domain(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     # Lấy tên người gửi
@@ -2832,7 +2832,7 @@ def admin_info(message):
         f"<b>🔹 Youtube Chính:</b> <a href='{youtube3_url}'>Theo Dõi</a>\n"
         f"<b>🔹 Youtube Phụ:</b> <a href='{youtube2_url}'>Theo Dõi</a>\n"
         f"<b>🔹 Telegram Chủ Bot:</b> <a href='{tle5_url}'>Liên Hệ</a>"
-        f"<b>🔹 Link Vào Nhóm:</b> <a href='https://t.me/botvipvc'>Tham Gia</a>\n"
+        f"<b>🔹 Link Vào Nhóm:</b> <a href='https://t.me/+glvo1XjAMVk4YmNl'>Tham Gia</a>\n"
         f"<b>🔹 Lưu Ý:</b> BOT Chỉ Hoạt Động Trong Nhóm!\n"
     )
     help_text = (
@@ -2841,8 +2841,8 @@ def admin_info(message):
         "<b>🔗 Link Facebook Để Thuê:</b> <a href='https://www.facebook.com/profile.php?id=100089057461799'>Xem Hồ Sơ</a>\n"
         "<b>📱 Link TikTok Để Thuê:</b> <a href='https://www.tiktok.com/@kecodon7103'>Xem Video</a>\n"
         "<b>🔗 LINK TLE ĐỂ THUÊ:</b> <a href='https://t.me/Vpsvanmanhgaming'>Liên Hệ</a>\n"
-        "<b>🌟 NHÓM TLE GIAO LƯU:</b> <a href='https://t.me/botvipvc'>Tham Gia</a>\n"
-        "<b>🌟 NHÓM TLE GIAO LƯU KHÁC:</b> <a href='https://t.me/botvipfc'>Tham Gia</a>\n"
+        "<b>🌟 NHÓM TLE GIAO LƯU:</b> <a href='https://t.me/+glvo1XjAMVk4YmNl'>Tham Gia</a>\n"
+        "<b>🌟 NHÓM TLE GIAO LƯU KHÁC:</b> <a href='https://t.me/+glvo1XjAMVk4YmNl'>Tham Gia</a>\n"
         "<b>🚀 Admin Cung Cấp Dịch Vụ 4G, 5G VPN Giá Rẻ Nhất 😎✨</b>\n"
         "<b>🔹 Website VPN:</b> <a href='https://4gvpsvanmanhgaming.click'>Xem Ngay</a>\n"
         "<b>🔸 Rẻ Nhất Chỉ Từ 7k 💸</b> - Tốc Độ Cực Mạnh, Nhiều GB ⚡\n"
@@ -2879,12 +2879,12 @@ def admin_info(message):
 def admin_info(message):
     # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, f'>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : <a href="https://t.me/botvipvc">https://t.me/botvipvc</a>', parse_mode='HTML')
+        bot.reply_to(message, f'>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : <a href="https://t.me/+glvo1XjAMVk4YmNl">https://t.me/+glvo1XjAMVk4YmNl</a>', parse_mode='HTML')
         return
 
     # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, f'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : <a href="https://t.me/botvipvc">https://t.me/botvipvc</a>', parse_mode='HTML')
+        bot.reply_to(message, f'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : <a href="https://t.me/+glvo1XjAMVk4YmNl">https://t.me/+glvo1XjAMVk4YmNl</a>', parse_mode='HTML')
         return
 
     # Thay thế các giá trị sau bằng thông tin liên hệ của bạn
@@ -2930,12 +2930,12 @@ def send_time(message):
     
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
     
     user_id = message.from_user.id
@@ -2968,12 +2968,12 @@ def invalid_command(message):
 
 # Kiểm tra nếu cuộc trò chuyện không phải là loại "group" hoặc "supergroup"
     if message.chat.type != "group" and message.chat.type != "supergroup":
-        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, '>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
 # Kiểm tra nếu ID nhóm không phải là nhóm hợp lệ
     if message.chat.id != allowed_group_id:
-        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/botvipvc')
+        bot.reply_to(message, 'Trộm bot à:\n>> Xin Lỗi Tôi Chỉ Hoạt Động Trên Nhóm : https://t.me/+glvo1XjAMVk4YmNl')
         return
 
     bot.reply_to(message, '⚠️ Lệnh không hợp lệ, Vui lòng sử dụng lệnh /start để xem danh sách lệnh !\n➤ 𝗢𝘄𝗻𝗲𝗿 👑 : @Vpsvanmanhgaming💳💲 \nVPS Giá Rẻ💳💲: https://httpsvpsvanmanhgaming.click\nShop 4G💳💲: https://4gvpsvanmanhgaming.click\n')
