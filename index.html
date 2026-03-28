@@ -1,0 +1,3376 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <script>!function(){var u=new URL(location.href);['utm_source','utm_medium','utm_campaign','utm_term','utm_content'].forEach(function(p){u.searchParams.delete(p)});if(u.href!==location.href)history.replaceState(null,'',u)}();</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-visual">
+    <title>BinGenZ · AI &amp; PREMIUM ACCOUNT</title><meta property="og:type" content="website"><meta property="og:url" content="https://bingenz.com"><meta property="og:title" content="BinGenZ · AI &amp; PREMIUM ACCOUNT"><meta property="og:description" content="Đăng ký tài khoản Premium (ChatGPT Plus, Gemini Pro, YouTube Premium, CapCut Pro). Cung cấp thiết kế website chuyên nghiệp, tối ưu chi phí."><meta property="og:locale" content="vi_VN"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="BinGenZ · AI &amp; PREMIUM ACCOUNT"><meta name="twitter:description" content="Đăng ký tài khoản Premium (ChatGPT Plus, Gemini Pro, YouTube Premium, CapCut Pro). Cung cấp thiết kế website chuyên nghiệp, tối ưu chi phí."><meta name="description" content="Đăng ký tài khoản Premium (ChatGPT Plus, Gemini Pro, YouTube Premium, CapCut Pro). Cung cấp thiết kế website chuyên nghiệp, tối ưu chi phí.">
+<!-- Share metadata is injected from share-meta.js during build and in middleware. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7f8fc;
+      --panel: #ffffff;
+      --line: #e7eaf3;
+      --text: #0f172a;
+      --muted: #55627a;
+      --brand: #4f46e5;
+      --brand-2: #0ea5e9;
+      --ok: #0f766e;
+      --danger: #b91c1c;
+      --shadow: 0 8px 32px rgba(15, 23, 42, 0.13), 0 2px 8px rgba(99,102,241,0.09);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    html {
+      /* Scale tỉ lệ thuần: 16px tại 430px, co đều theo viewport, giữ tối đa 16px desktop */
+      font-size: min(3.72vw, 16px);
+      scroll-behavior: smooth;
+      scroll-padding-top: 84px;
+    }
+    body {
+      font-family: "Be Vietnam Pro", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.5;
+    }
+    h1, h2, h3, .price, .badge, .cta { font-family: "Be Vietnam Pro", sans-serif; }
+
+    .container { width: min(1120px, 86vw); margin: 0 auto; }
+    .topbar {
+      position: sticky; top: 0; z-index: 30;
+      background: rgba(255, 255, 255, 0.85);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+    }
+    .topbar-inner {
+      height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    }
+    .logo { font-size: 1.4rem; font-weight: 700; letter-spacing: 0.01em; }
+    .logo span {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .logo-sub {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 700;
+    }
+    @keyframes floatUp {
+      0%   { transform: translateY(0) scale(1); opacity: 0.8; }
+      100% { transform: translateY(-32px) scale(0.2); opacity: 0; }
+    }
+    .logo-wrap { position: relative; display: inline-block; }
+    .logo-particle {
+      position: absolute; bottom: 2px;
+      width: 4px; height: 4px; border-radius: 50%;
+      pointer-events: none;
+      animation: floatUp 2s ease-out infinite;
+    }
+    .lp1 { background: #4338ca; left: 8%;  animation-delay: 0s;    animation-duration: 2.1s; }
+    .lp2 { background: #6366f1; left: 24%; animation-delay: 0.45s; animation-duration: 1.8s; }
+    .lp3 { background: #0ea5e9; left: 44%; animation-delay: 0.9s;  animation-duration: 2.3s; }
+    .lp4 { background: #38bdf8; left: 64%; animation-delay: 0.2s;  animation-duration: 1.9s; }
+    .lp5 { background: #818cf8; left: 82%; animation-delay: 1.2s;  animation-duration: 2.0s; }
+    .top-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .chip {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #334155;
+      border-radius: 999px;
+      font-size: 0.875em;
+      padding: 0.625em 1em;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .chip.primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      background: linear-gradient(135deg, #4338ca 0%, #6366f1 50%, #0ea5e9 100%);
+      background-clip: padding-box;
+      color: #fff;
+      padding: 0.625em 1.25em;
+      font-size: 0.94em;
+      line-height: 1.2;
+      appearance: none;
+      -webkit-appearance: none;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(99,102,241,0.38);
+      transition: transform 0.15s, box-shadow 0.15s, filter 0.15s;
+    }
+    .chip.primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(99,102,241,0.48);
+      filter: brightness(1.07);
+    }
+    .chip.primary:active { transform: translateY(0); }
+
+    .hero {
+      padding: 0 0 24px;
+    }
+    .hero-box {
+      position: relative;
+      overflow: hidden;
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+      background: transparent;
+      padding: clamp(28px, 5vw, 52px) clamp(18px, 5vw, 34px);
+    }
+    .hero-box::before,
+    .hero-box::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      pointer-events: none;
+    }
+    .hero-box::before {
+      width: 280px;
+      height: 280px;
+      right: -90px;
+      bottom: -130px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.12) 0%, rgba(99, 102, 241, 0) 72%);
+    }
+    .hero-box::after {
+      width: 220px;
+      height: 220px;
+      right: 18%;
+      top: -120px;
+      background: radial-gradient(circle, rgba(14, 165, 233, 0.13) 0%, rgba(14, 165, 233, 0) 72%);
+    }
+    .hero-box > div {
+      position: relative;
+      z-index: 1;
+      max-width: min(1120px, 92vw);
+      margin: 0 auto;
+    }
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(99,102,241,0.09);
+      border: 1px solid #c7d2fe;
+      color: #4338ca;
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 0.625em;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .kicker-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #6366f1;
+      flex-shrink: 0;
+    }
+    .title {
+      margin: 0 0 16px;
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+      display: grid;
+      gap: 0.12em;
+    }
+    .title-main {
+      display: inline-flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.26em;
+      color: #0f172a;
+      font-weight: 800;
+    }
+    .title-sub {
+      display: inline-flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.26em;
+      font-weight: 800;
+      color: #0f172a;
+    }
+    .title-and {
+      color: #475569;
+      font-weight: 700;
+    }
+    .title .accent {
+      display: inline-block;
+      font-weight: 800;
+      background: linear-gradient(135deg, #4338ca, #0ea5e9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero p {
+      margin: 0 0 20px;
+      color: #475569;
+      max-width: 58ch;
+      font-size: 0.94em;
+      line-height: 1.65;
+    }
+    .hero-pill {
+      margin-bottom: 16px;
+      width: fit-content;
+      border-radius: 999px;
+      border: 0.09em solid #f6d0a9;
+      background: linear-gradient(180deg, #fffaf4 0%, #fff 100%);
+      color: #ea580c;
+      padding: 0.4em 0.9em;
+      font-weight: 700;
+      font-size: 0.72em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      box-shadow: 0 0.5em 1.2em rgba(15,23,42,0.08), 0 0.1em 0.25em rgba(15,23,42,0.06);
+    }
+    .hero-card {
+      background: rgba(255,255,255,0.82);
+      border: 1px solid rgba(165,180,252,0.45);
+      border-radius: 28px;
+      padding: clamp(24px, 4vw, 36px);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-cta-row {
+      margin-bottom: 2.6em;
+      display: flex;
+      gap: 0.8em;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .hero-cta-row .chip.primary,
+    .hero-outline-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5em;
+      white-space: nowrap;
+      min-height: 3.35em;
+      padding: 0.82em 1.38em;
+      font-size: 0.96em;
+      line-height: 1.2;
+      font-weight: 800;
+      border-radius: 999px;
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+    .hero-cta-row .chip.primary {
+      box-shadow: 0 0.85em 2em rgba(99,102,241,0.26), 0 0.18em 0.42em rgba(15,23,42,0.1);
+    }
+    .hero-outline-btn {
+      border: 1.5px solid rgba(165,180,252,0.6);
+      background: rgba(255,255,255,0.76);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      color: #3730a3;
+      cursor: pointer;
+      box-shadow: 0 0.85em 2em rgba(79,70,229,0.12), 0 0.18em 0.42em rgba(15,23,42,0.08);
+      transition: background 0.15s, border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    }
+    .hero-outline-btn:hover {
+      background: rgba(255,255,255,0.92);
+      border-color: #6366f1;
+      transform: translateY(-0.05em);
+      box-shadow: 0 1em 2.2em rgba(79,70,229,0.18), 0 0.2em 0.46em rgba(15,23,42,0.1);
+    }
+    .hero-trust-btn {
+      border: 0.07em solid #bfdbfe;
+      background: #ffffff;
+      color: #0f172a;
+      box-shadow: 0 0.45em 1em rgba(14,165,233,0.12);
+      transition: box-shadow 0.15s, transform 0.15s, border-color 0.15s;
+    }
+    .hero-trust-btn:hover {
+      transform: translateY(-0.05em);
+      border-color: #93c5fd;
+      box-shadow: 0 0.65em 1.28em rgba(14,165,233,0.18);
+    }
+    .hero-trust-dot {
+      width: 0.56em;
+      height: 0.56em;
+      border-radius: 50%;
+      background: #16a34a;
+      box-shadow: 0 0 0 0.2em rgba(22,163,74,0.2);
+      flex-shrink: 0;
+      animation: heroTrustDotPulse 1.5s ease-in-out infinite;
+    }
+    @keyframes heroTrustDotPulse {
+      0%,100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.45; transform: scale(0.72); }
+    }
+    .hero-trust-fb {
+      width: 1.2em;
+      height: 1.2em;
+      border-radius: 50%;
+      background: #dbeafe;
+      color: #1877f2;
+      font-size: 0.86em;
+      font-weight: 900;
+      line-height: 1;
+      display: inline-grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+    .hero-stats {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .hero-stat-card {
+      background: rgba(255,255,255,0.75);
+      border: 1px solid rgba(165,180,252,0.55);
+      border-radius: 14px;
+      padding: 10px 14px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+    }
+    .hero-stat-value {
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      background: linear-gradient(135deg, #4338ca, #0ea5e9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-stat-label {
+      font-size: 0.72em;
+      color: #64748b;
+      font-weight: 500;
+      margin-top: 4px;
+    }
+    .hero-stat-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: nowrap;
+    }
+    .hero-stat-avatars {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .hero-stat-top .hero-stat-value { white-space: nowrap; }
+    .hero-stat-avatars img {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1.5px solid #fff;
+      margin-left: -6px;
+      box-shadow: 0 1px 4px rgba(15,23,42,0.12);
+      background: #e2e8f0;
+    }
+    .hero-stat-avatars img:first-child { margin-left: 0; }
+
+    .community-split-top {
+      display: block;
+      margin-bottom: 18px;
+    }
+    .community-split-text {
+      min-width: 0;
+    }
+    .community-mockup {
+      width: 152px;
+      background: #fff;
+      border-radius: 18px 18px 0 0;
+      box-shadow: 0 -6px 24px rgba(99,102,241,0.15);
+      padding: 12px 12px 0;
+    }
+    .cm-bar {
+      height: 0.44em;
+      background: linear-gradient(90deg, #4338ca, #6366f1);
+      border-radius: 999px;
+      margin-bottom: 0.56em;
+    }
+    .cm-code {
+      border-radius: 10px;
+      background: #0f172a;
+      padding: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .cm-dots {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 0.375em;
+    }
+    .cm-dots span {
+      width: 0.3125em;
+      height: 0.3125em;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .cm-code-line {
+      height: 0.25em;
+      border-radius: 999px;
+      margin-bottom: 0.3125em;
+      background: rgba(255,255,255,0.18);
+    }
+    .cm-code-line.purple { background: #8b5cf6; }
+    .cm-code-line.blue { background: #38bdf8; }
+    .cm-code-line.green { background: #34d399; }
+    .cm-social {
+      display: flex;
+      gap: 0.375em;
+      padding-bottom: 0.75em;
+    }
+    .cm-pill {
+      flex: 1;
+      border-radius: 999px;
+      height: 1.125em;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-size: 0.52em;
+      font-weight: 800;
+    }
+    .community-wrap {
+      background: linear-gradient(135deg, rgba(67,56,202,0.96), rgba(14,165,233,0.9)), #4338ca;
+      color: #fff;
+      border: 1px solid rgba(99,102,241,0.18);
+      border-radius: 32px;
+      box-shadow: 0 20px 60px rgba(79,70,229,0.18);
+      padding: clamp(24px, 5vw, 28px);
+      position: relative;
+      overflow: hidden;
+    }
+    .community-wrap::before {
+      content: '';
+      position: absolute;
+      inset: auto -90px -90px auto;
+      width: 220px; height: 220px;
+      background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .community-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.14);
+      color: #fff;
+      font-size: 0.69em; font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.4em 0.75em;
+    }
+    .community-title {
+      margin: 0.6em 0 0.4em;
+      font-size: clamp(1.25rem, 4.5vw, 2.4rem);
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+    .community-sub {
+      margin: 0;
+      color: rgba(255,255,255,0.82);
+      font-size: clamp(0.75rem, 2.4vw, 1rem);
+      line-height: 1.5;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+    .community-sub strong {
+      color: #fff;
+      font-weight: 800;
+    }
+    .gift-box {
+      margin-top: 0;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.14);
+      border-radius: 26px;
+      padding: 0.875em 1em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: none;
+    }
+    .gift-box .ico {
+      width: 2.125em;
+      height: 2.125em;
+      border-radius: 11px;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,0.12);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.18);
+      flex-shrink: 0;
+    }
+    .gift-title {
+      font-size: 0.95em;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.3;
+    }
+    .gift-sub {
+      font-size: 0.8em;
+      color: rgba(255,255,255,0.74);
+      line-height: 1.3;
+    }
+    /* ── Facebook Group Mockup ── */
+    .fb-mockup {
+      width: 100%;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(15,23,42,0.22);
+    }
+    .fb-cover {
+      height: 5em;
+      background: linear-gradient(135deg, #1877f2, #4338ca, #0ea5e9);
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      padding: 0.5em 0.75em;
+    }
+    .fb-cover-gradient {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.35));
+    }
+    .fb-cover-text {
+      position: relative;
+      color: #fff;
+      font-size: 0.75em;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    }
+    .fb-info {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      padding: 0.625em 0.75em;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .fb-avatar {
+      width: 2em;
+      height: 2em;
+      border-radius: 50%;
+      background: #eef2ff;
+      border: 2px solid #c7d2fe;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+    .fb-name {
+      font-size: 0.72em;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 10em;
+    }
+    .fb-meta {
+      font-size: 0.62em;
+      color: #64748b;
+      margin-top: 1px;
+    }
+    .fb-join-btn {
+      margin-left: auto;
+      background: #1877f2;
+      color: #fff;
+      font-size: 0.62em;
+      font-weight: 700;
+      border-radius: 6px;
+      padding: 0.3em 0.6em;
+      white-space: nowrap;
+      flex-shrink: 0;
+      text-decoration: none;
+      box-shadow: 0 0.45em 1.1em rgba(15,23,42,0.10), 0 0.1em 0.24em rgba(15,23,42,0.07);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+    }
+    .fb-join-btn:hover {
+      transform: translateY(-0.06em);
+      box-shadow: 0 0.65em 1.35em rgba(15,23,42,0.14), 0 0.12em 0.3em rgba(15,23,42,0.08);
+      filter: brightness(1.03);
+    }
+    .fb-post {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      padding: 0.625em 0.75em;
+    }
+    .fb-post-avatar {
+      width: 1.5em;
+      height: 1.5em;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #6366f1, #0ea5e9);
+      flex-shrink: 0;
+    }
+    .fb-post-body { flex: 1; }
+    .fb-post-line {
+      height: 0.375em;
+      border-radius: 999px;
+      background: #e2e8f0;
+      margin-bottom: 0.375em;
+    }
+    .fb-post-line:last-child { margin-bottom: 0; }
+    /* ── end Facebook Mockup ── */
+    .community-btn {
+      margin-top: 1.25em;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 12px 24px rgba(15,23,42,0.18);
+    }
+    .cta.buy.community-btn {
+      background: #fff;
+      color: #312e81;
+    }
+    .community-metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.625em;
+      margin-bottom: 1.125em;
+    }
+    @media (max-width: 680px) {
+      .community-metrics { grid-template-columns: 1fr; }
+    }
+    .community-metric {
+      border-radius: 18px;
+      padding: 0.875em;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.16);
+    }
+    .community-metric strong {
+      display: block;
+      margin-bottom: 0.25em;
+      font-size: 1.05em;
+      color: #fff;
+    }
+    .community-metric span {
+      color: rgba(255,255,255,0.74);
+      font-size: 0.84em;
+    }
+    .community-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px 20px;
+      margin: 24px 0;
+    }
+    .comm-stat-value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #4338ca;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .comm-stat-label {
+      font-size: 0.69em;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+      color: #64748b;
+      margin-top: 5px;
+    }
+    .personal-card {
+      margin-top: 18px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid #6366f1;
+      border-radius: 30px;
+      box-shadow: 0 2px 12px rgba(99,102,241,0.08);
+      padding: 18px 18px 18px 16px;
+    }
+    .personal-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .personal-head .ico {
+      width: 40px;
+      height: 40px;
+      border-radius: 11px;
+      border: 1px solid #c7d2fe;
+      display: grid;
+      place-items: center;
+      color: #4338ca;
+      background: #eef2ff;
+      flex-shrink: 0;
+    }
+    .personal-title {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      color: #0f172a;
+    }
+    .personal-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 8px;
+      font-size: 0.81em;
+      color: #334155;
+      font-weight: 600;
+    }
+    .personal-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      word-break: break-word;
+    }
+    .personal-check {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .section { padding: 2.25em 0; }
+    #source-code.section { padding-top: 56px; }
+    .section h2 {
+      margin: 0 0 24px;
+      font-size: clamp(1.3rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #1e1b4b, #4338ca);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1.35em;
+    }
+    .card {
+      grid-column: span 6;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 1.5em;
+      box-shadow: var(--shadow);
+      padding: 1.1em;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75em;
+      min-width: 0;
+      scroll-margin-top: 92px;
+      transition: box-shadow 0.18s, transform 0.18s;
+    }
+    .card:hover {
+      box-shadow: var(--shadow);
+      transform: translateY(-2px);
+    }
+    .head { display: flex; align-items: start; justify-content: space-between; gap: 10px; }
+    .head-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+    .head-ico {
+      width: 3em;
+      height: 3em;
+      border-radius: 0.875em;
+      background: #eef2ff;
+      flex-shrink: 0;
+      display: block;
+    }
+    .head-text { min-width: 0; }
+    .name { font-size: clamp(0.88rem, 3.5vw, 1.15rem); font-weight: 800; letter-spacing: -0.01em; margin: 0 0 3px; white-space: nowrap; overflow: hidden; text-overflow: clip; }
+    .tag { color: #64748b; font-size: 0.72em; margin: 0; line-height: 1.4; }
+    .badge {
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 0.65em;
+      white-space: nowrap;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .badge.green { border: 1px solid #bbf7d0; background: #f0fdf4; color: #166534; }
+    .badge.red { border: 1px solid #fecaca; background: #fef2f2; color: #b91c1c; }
+
+    .price-row { display: flex; align-items: end; gap: 10px; flex-wrap: wrap; }
+    .price {
+      font-size: 2em;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      font-weight: 900;
+      color: #0f172a;
+    }
+    .old { font-size: 0.75em; color: #94a3b8; }
+    .old s { color: #94a3b8 !important; text-decoration: line-through #ef4444 !important; text-decoration-thickness: 1.3px !important; }
+    .day {
+      font-size: 0.72em;
+      color: #ea580c;
+      background: linear-gradient(180deg, #fffaf4 0%, #fff 100%);
+      border: 0.09em solid #f6d0a9;
+      border-radius: 999px;
+      padding: 0.4em 0.9em;
+      width: fit-content;
+      font-weight: 700;
+      box-shadow: 0 0.5em 1.2em rgba(15,23,42,0.08), 0 0.1em 0.25em rgba(15,23,42,0.06);
+    }
+
+    .cta-row { margin-top: auto; display: grid; gap: 8px; }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      border-radius: 999px;
+      padding: 0.8em 1.1em;
+      font-size: 0.94rem;
+      font-weight: 700;
+      line-height: 1.2;
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      overflow: hidden;
+      box-shadow: 0 0.45em 1.1em rgba(15,23,42,0.10), 0 0.1em 0.24em rgba(15,23,42,0.07);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+    }
+    .cta:hover {
+      transform: translateY(-0.06em);
+      box-shadow: 0 0.65em 1.35em rgba(15,23,42,0.14), 0 0.12em 0.3em rgba(15,23,42,0.08);
+      filter: brightness(1.02);
+    }
+    .cta:active { transform: translateY(0); }
+    .cta.buy {
+      color: #fff;
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+    }
+    .cta.light {
+      color: #1e293b;
+      background: #f8fafc;
+      border: 1px solid var(--line);
+    }
+
+    .wide {
+      grid-column: span 6;
+      border-radius: 1.5em;
+      padding: 1.25em;
+      position: relative;
+      overflow: hidden;
+    }
+    #source-code .wide {
+      grid-column: span 12;
+    }
+    .wide.wide-code {
+      background: linear-gradient(135deg, #4338ca 0%, #6366f1 100%);
+      color: #fff;
+      box-shadow: 0 10px 32px rgba(67,56,202,0.28);
+    }
+    .wide h3 { margin: 0 0 10px; font-size: 1.15rem; font-weight: 800; color: #fff; }
+    .wide ul { margin: 0 0 16px; padding-left: 18px; color: rgba(255,255,255,0.85); display: grid; gap: 7px; font-size: 0.84em; }
+    .wide-deco {
+      position: absolute;
+      right: -10px; bottom: -10px;
+      opacity: 0.18;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .contact-list {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .contact-item {
+      width: 42px;
+      height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #1f2937;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .contact-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .footer {
+      text-align: center;
+      color: #64748b;
+      padding: 26px 12px 40px;
+      font-size: 0.81em;
+    }
+
+    /* ── Welcome Overlay (FIXED) ── */
+    /* welcome overlay removed */
+    .wlc-services { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+    .wlc-service-item {
+      display: flex; flex-direction: column; align-items: center; gap: 4px;
+      background: rgba(255,255,255,0.75); border: 1px solid #c7d2fe;
+      border-radius: 22px; padding: 9px 6px; text-align: center;
+    }
+    .wlc-svc-svg { width: 60px; height: 60px; flex-shrink: 0; }
+    .wlc-svc-name { font-size: 0.75em; font-weight: 800; color: #0f172a; }
+    .wlc-svc-note { font-size: 0.625em; color: #64748b; line-height: 1.4; }
+    .wlc-cta-text {
+      font-size: 0.81em; color: #334155; text-align: center; line-height: 1.5; margin: 0;
+    }
+    .wlc-cta-text strong { color: #4338ca; }
+
+    /* Ad box */
+    .wlc-ad {
+      position: relative; overflow: hidden;
+      background: linear-gradient(135deg, #0369a1 0%, #0284c7 60%, #38bdf8 100%);
+      border: 1px solid rgba(56,189,248,0.3);
+      border-radius: 20px; padding: 10px 12px;
+    }
+    .wlc-ad::before {
+      content: ''; position: absolute; right: -24px; top: -24px;
+      width: 90px; height: 90px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,255,255,0.18), transparent 70%);
+      pointer-events: none;
+    }
+    .wlc-ad::after {
+      content: ''; position: absolute; left: -16px; bottom: -24px;
+      width: 60px; height: 60px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(14,165,233,0.3), transparent 70%);
+      pointer-events: none;
+    }
+    .wlc-ad-inner { position: relative; z-index: 1; display: grid; gap: 6px; }
+    .wlc-ad-head { display: flex; align-items: center; gap: 8px; }
+    .wlc-ad-logo {
+      width: 42px; height: 42px; border-radius: 10px;
+      overflow: hidden; flex-shrink: 0;
+      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.1);
+    }
+    .wlc-ad-logo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .wlc-ad-qc { font-size: 0.56em; font-weight: 700; color: rgba(255,255,255,0.65); letter-spacing: 0.08em; text-transform: uppercase; }
+    .wlc-ad-brand { font-size: 1em; font-weight: 800; color: #fff; line-height: 1.1; }
+    .wlc-ad-desc { font-size: 0.66em; color: rgba(255,255,255,0.85); line-height: 1.2; margin: 0; }
+    .wlc-ad-pills {
+      display: flex; flex-wrap: wrap; gap: 3px;
+      max-height: calc(2 * (18px + 6px));
+      overflow: hidden;
+    }
+    .wlc-ad-pill {
+      font-size: 0.594em; font-weight: 600; color: #fff;
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 999px; padding: 2px 7px;
+      white-space: nowrap;
+    }
+    .wlc-ad-cta {
+      display: flex; align-items: center; justify-content: center; gap: 7px;
+      background: #fff; border: 0; width: 100%;
+      color: #0369a1; font-size: 0.81em; font-weight: 800;
+      font-family: "Be Vietnam Pro", sans-serif;
+      padding: 0.625em; border-radius: 999px;
+      text-decoration: none; transition: transform 0.15s, box-shadow 0.15s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.18); cursor: pointer;
+    }
+    .wlc-ad-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
+    .wlc-ad-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: #0284c7; flex-shrink: 0;
+      animation: none;
+    }
+    @keyframes wlcdot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(0.65)} }
+
+    .redirect-toast {
+      position: fixed;
+      bottom: -100px;
+      left: 50%; transform: translateX(-50%);
+      background: #0f172a;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 999px;
+      padding: 12px 20px;
+      display: flex; align-items: center; gap: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      z-index: 200;
+      transition: bottom 0.3s cubic-bezier(0.34,1.56,0.64,1);
+      white-space: nowrap;
+      pointer-events: none;
+    }
+    .redirect-toast.show {
+      bottom: 28px;
+      pointer-events: auto;
+    }
+    .redirect-toast .t-text {
+      font-size: 0.82em; font-weight: 600;
+      background: linear-gradient(90deg, #fff 0%, #fff 30%, #a5b4fc 50%, #fff 70%, #fff 100%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmertext 1.4s linear infinite;
+    }
+    @keyframes shimmertext { 0% { background-position: 100% center; } 100% { background-position: -100% center; } }
+
+    /* ── Confirm Toast ── */
+    .confirm-toast {
+      position: fixed;
+      bottom: -180px;
+      left: 50%; transform: translateX(-50%);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(255,255,255,0.08) 100%),
+        rgba(15, 23, 42, 0.46);
+      backdrop-filter: blur(16px) saturate(1.25);
+      -webkit-backdrop-filter: blur(16px) saturate(1.25);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 32px;
+      padding: 14px 16px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 0 16px 36px rgba(15,23,42,0.24), 0 0 0 1px rgba(255,255,255,0.06) inset;
+      z-index: 200;
+      transition: bottom 0.35s cubic-bezier(0.34,1.56,0.64,1);
+      width: min(300px, 88vw);
+      pointer-events: none;
+    }
+    .confirm-toast.show {
+      bottom: 28px;
+      pointer-events: auto;
+    }
+    .confirm-toast-top { display: flex; align-items: center; gap: 10px; }
+    .confirm-toast-top img {
+      width: 40px; height: 40px; border-radius: 14px;
+      object-fit: cover; flex-shrink: 0;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+    .confirm-toast-label { font-size: 0.94em; font-weight: 700; color: rgba(255,255,255,0.95); flex: 1; }
+    .confirm-toast-sub { font-size: 0.69em; color: rgba(255,255,255,0.74); margin-top: 1px; }
+    .confirm-btn-yes {
+      background: linear-gradient(135deg, #4338ca 0%, #6366f1 50%, #0ea5e9 100%); color: #fff;
+      border: 0; border-radius: 999px;
+      padding: 0.65em 0.75em; font-size: 0.82em; font-weight: 700;
+      cursor: pointer; font-family: "Be Vietnam Pro", sans-serif;
+      text-decoration: none; text-align: center;
+      display: flex; align-items: center; justify-content: center;
+      width: 100%;
+      box-shadow: 0 8px 20px rgba(79,70,229,0.3);
+      transition: filter 0.15s, box-shadow 0.15s;
+    }
+    .confirm-btn-yes:hover { filter: brightness(1.08); box-shadow: 0 10px 24px rgba(79,70,229,0.38); }
+    .confirm-btn-no {
+      display: block; width: 100%; border: 0; background: none;
+      color: rgba(255,255,255,0.72); font-size: 0.69em; font-weight: 600;
+      cursor: pointer; font-family: "Be Vietnam Pro", sans-serif;
+      padding: 2px 0 4px; text-align: center;
+      transition: color 0.15s;
+    }
+    .confirm-btn-no:hover { color: rgba(255,255,255,0.92); }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(10px) saturate(1.3);
+      -webkit-backdrop-filter: blur(10px) saturate(1.3);
+      display: none;
+      place-items: center;
+      z-index: 50;
+      padding: 16px;
+      overflow-y: auto;
+    }
+    .modal.open { display: grid; }
+    @supports (height: 100dvh) {
+      .modal { height: 100dvh; }
+    }
+    .modal-box {
+      width: min(560px, calc(100vw - 32px));
+      max-height: calc(100vh - 32px);
+      overflow-y: auto;
+      overflow-x: hidden;
+      background: #ffffff;
+      border: 1.5px solid #c7d2fe;
+      border-radius: 36px;
+      box-shadow: 0 40px 100px rgba(15,23,42,0.45), 0 0 0 4px rgba(99,102,241,0.10);
+    }
+    .modal-head {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      background: linear-gradient(135deg, #eef2ff, #ecfeff);
+    }
+    .modal-head-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    .modal-head-ico {
+      width: 40px;
+      height: 40px;
+      border-radius: 14px;
+      object-fit: cover;
+      border: 1px solid #dbeafe;
+      background: #fff;
+      flex-shrink: 0;
+      display: block;
+    }
+    .modal-title { font-size: 1em; font-weight: 800; margin: 0; }
+    .close-btn {
+      border: 1px solid #cbd5e1;
+      border-radius: 999px;
+      background: #fff;
+      padding: 0.5em 1em;
+      cursor: pointer;
+      font-weight: 700;
+      font-family: "Be Vietnam Pro", sans-serif;
+      font-size: 0.82em;
+    }
+    .modal-body { padding: 0.75em 0.875em; display: grid; gap: 0.5em; }
+    .modal-desc-wrap {
+      background: rgba(241,245,255,0.8);
+      border: 1px solid rgba(199,210,254,0.5);
+      border-radius: 1.375em;
+      padding: 0.875em 1em;
+    }
+    .modal-list { margin: 0; padding: 0; list-style: none; color: #334155; font-size: 0.85em; display: grid; gap: 6px; }
+    .modal-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .modal-contact-note {
+      font-size: 0.75em;
+      font-weight: 600;
+      color: #334155;
+      background: rgba(241,245,255,0.8);
+      border: 1px solid rgba(199,210,254,0.5);
+      border-radius: 20px;
+      padding: 12px 16px;
+    }
+    .contact-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border-radius: 999px;
+      padding: 0.82em 0.75em;
+      font-size: 0.82em;
+      font-weight: 700;
+      font-family: "Be Vietnam Pro", sans-serif;
+      text-decoration: none;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      min-width: 0;
+      width: 100%;
+      color: #fff;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .contact-cta:hover { transform: translateY(-1px); }
+    .contact-cta:active { transform: translateY(0); }
+    #devModal .modal-head {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    #devModal .modal-body { gap: 6px; }
+    #devModal .contact-box { margin-top: 4px !important; }
+    #devModal .wlc-services { margin-bottom: 10px !important; }
+    #devModal .wlc-svc-note {
+      font-size: 0.594em;
+      line-height: 1.35;
+      word-break: normal;
+    }
+    #devModal .wlc-svc-note br { display: none; }
+    .contact-cta.tele {
+      background: linear-gradient(135deg, #2AABEE, #1a8fc7);
+      box-shadow: 0 6px 16px rgba(42,171,238,0.35);
+    }
+    .contact-cta.tele:hover { box-shadow: 0 8px 20px rgba(42,171,238,0.45); }
+    .contact-cta.zalo {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      box-shadow: 0 6px 16px rgba(79,70,229,0.30);
+    }
+    .contact-cta.zalo:hover { box-shadow: 0 8px 20px rgba(79,70,229,0.45); }
+    .contact-cta svg { flex-shrink: 0; }
+    .inline-zalo-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(245,247,255,0.98) 100%);
+      border: 0.07em solid rgba(199, 210, 254, 0.78);
+      border-radius: 1.35em;
+      padding: 0.82em;
+      display: grid;
+      gap: 0.62em;
+      box-shadow: 0 1em 2em rgba(79,70,229,0.12), 0 0.2em 0.45em rgba(15,23,42,0.06);
+    }
+    .inline-zalo-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75em;
+    }
+    .inline-zalo-title {
+      margin: 0;
+      color: #0f172a;
+      font-size: 0.96em;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+    .inline-zalo-sub {
+      margin: 0.12em 0 0;
+      color: #55627a;
+      font-size: 0.68em;
+      line-height: 1.4;
+    }
+    .inline-zalo-main {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.68em;
+      align-items: center;
+      padding: 0.72em 0.78em;
+      border-radius: 1em;
+      background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+      border: 0.07em solid rgba(219, 234, 254, 0.95);
+    }
+    .inline-zalo-icon {
+      width: 2.55em;
+      height: 2.55em;
+      border-radius: 0.86em;
+      overflow: hidden;
+      box-shadow: 0 0.55em 1.1em rgba(79,70,229,0.12);
+    }
+    .inline-zalo-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .inline-zalo-label {
+      color: #64748b;
+      font-size: 0.67em;
+      font-weight: 700;
+    }
+    .inline-zalo-value {
+      margin-top: 0.06em;
+      color: #312e81;
+      font-size: 0.96em;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+    .inline-zalo-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.55em;
+    }
+    .inline-zalo-btn {
+      min-height: 2.6em;
+      width: 100%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4em;
+      border-radius: 0.9em;
+      padding: 0.58em 0.85em;
+      font-family: "Be Vietnam Pro", sans-serif;
+      font-size: 0.78em;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
+    }
+    .inline-zalo-btn:hover {
+      transform: translateY(-0.05em);
+      filter: brightness(1.05);
+    }
+    .inline-zalo-btn:active {
+      transform: translateY(0);
+    }
+    .inline-zalo-btn.open {
+      border: 0;
+      color: #fff;
+      background: linear-gradient(135deg, #2958df 0%, #3673f0 100%);
+      box-shadow: 0 0.55em 1.1em rgba(37, 99, 235, 0.22);
+    }
+    .inline-zalo-btn.copy {
+      border: 0.07em solid #dbe3f4;
+      color: #3730a3;
+      background: #ffffff;
+      box-shadow: 0 0.3em 0.8em rgba(15,23,42,0.06);
+    }
+    .inline-zalo-btn::before {
+      width: 1.1em;
+      height: 1.1em;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 0.3em;
+      background: rgba(255,255,255,0.18);
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .inline-zalo-btn.open::before {
+      content: "↗";
+      font-size: 0.86em;
+    }
+    .inline-zalo-btn.copy::before {
+      content: "⧉";
+      font-size: 0.83em;
+      background: #eef2ff;
+    }
+    .inline-zalo-btn.copy.is-copied {
+      background: #f0fdf4;
+      color: #bbf7d0;
+      border-color: #bbf7d0;
+      color: #166534;
+      box-shadow: 0 0.55em 1.1em rgba(22, 163, 74, 0.14);
+    }
+    .inline-zalo-btn.copy.is-copied::before {
+      content: "✓";
+      font-size: 0.88em;
+      background: #16a34a;
+      color: #fff;
+    }
+    .inline-zalo-note {
+      color: #7c4a03;
+      background: #fff7ed;
+      border: 0.07em solid #fed7aa;
+      border-radius: 0.78em;
+      font-size: 0.68em;
+      line-height: 1.45;
+      padding: 0.62em 0.78em;
+      display: flex;
+      gap: 0.5em;
+      align-items: flex-start;
+    }
+    .inline-zalo-note strong {
+      color: #c2410c;
+    }
+    @media (max-width: 430px) {
+      .inline-zalo-actions {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 980px) {
+      .card { grid-column: span 6; }
+      .wide { grid-column: span 6; }
+    }
+    @media (max-width: 680px) {
+      .topbar-inner { height: 56px; padding: 0; align-items: center; flex-direction: row; justify-content: space-between; }
+      .logo { font-size: 1.5rem !important; }
+      .card { grid-column: span 12; }
+      .wide { grid-column: span 12; }
+      .contact-list { gap: 8px; }
+      .personal-list li { width: 100%; }
+      .redirect-toast,
+      .info-toast {
+        -webkit-backdrop-filter: none !important;
+        backdrop-filter: none !important;
+        will-change: transform, opacity;
+      }
+      .confirm-toast {
+        -webkit-backdrop-filter: blur(10px) saturate(1.15) !important;
+        backdrop-filter: blur(10px) saturate(1.15) !important;
+        will-change: transform, opacity;
+      }
+      .redirect-toast {
+        bottom: 20px;
+        transform: translate(-50%, 22px);
+        opacity: 0;
+        transition: transform 0.22s ease, opacity 0.22s ease;
+      }
+      .redirect-toast.show {
+        bottom: 20px;
+        transform: translate(-50%, 0);
+        opacity: 1;
+      }
+      .redirect-toast .t-text {
+        animation: none;
+        background: none;
+        -webkit-text-fill-color: currentColor;
+        color: #fff;
+      }
+      .confirm-toast {
+        bottom: 20px;
+        transform: translate(-50%, 22px);
+        opacity: 0;
+        transition: transform 0.22s ease, opacity 0.22s ease;
+        background:
+          linear-gradient(180deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.06) 100%),
+          rgba(15, 23, 42, 0.56);
+        border-color: rgba(255,255,255,0.18);
+        box-shadow: 0 10px 28px rgba(15,23,42,0.2);
+      }
+      .confirm-toast.show {
+        bottom: 20px;
+        transform: translate(-50%, 0);
+        opacity: 1;
+      }
+      .info-toast {
+        top: calc(72px + env(safe-area-inset-top, 0px));
+        transform: translate(-50%, -18px);
+        opacity: 0;
+        transition: transform 0.22s ease, opacity 0.22s ease;
+        box-shadow: 0 10px 28px rgba(15,23,42,0.18);
+      }
+      .info-toast.show {
+        top: calc(72px + env(safe-area-inset-top, 0px));
+        transform: translate(-50%, 0);
+        opacity: 1;
+      }
+    }
+    @media (max-width: 430px) {
+      .hero-box {
+        width: auto;
+        margin-left: 0;
+      }
+      .title {
+        font-size: clamp(1.62rem, 8.2vw, 2.2rem);
+        margin-bottom: 12px;
+        gap: 0.1em;
+      }
+      .title-main,
+      .title-sub {
+        gap: 0.22em;
+      }
+      .hero p {
+        font-size: 0.875em;
+        line-height: 1.58;
+        margin-bottom: 16px;
+      }
+      .hero-cta-row {
+        gap: 0.55em;
+        flex-wrap: wrap;
+      }
+      .hero-cta-row .chip.primary,
+      .hero-outline-btn {
+        flex: 1 1 0;
+        min-width: 0;
+        min-height: 3.1em;
+        padding: 0.72em 1em;
+        font-size: 0.88em;
+        line-height: 1.15;
+      }
+      .hero-trust-btn {
+        flex: 1 1 100%;
+        min-height: 2.95em;
+        padding: 0.65em 1em;
+        font-size: 0.84em;
+      }
+      .hero-stat-top { gap: 6px; }
+      .hero-stat-avatars img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    /* Stack contact buttons vertically on narrow modal */
+    @media (max-width: 400px) {
+      .modal-actions {
+        grid-template-columns: 1fr;
+      }
+    }
+    .gmail-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 999px;
+      padding: 3px 9px 3px 5px;
+      color: #15803d;
+      font-size: 0.69em;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .contact-box {
+      background: rgba(241,245,255,0.8);
+      border: 1px solid rgba(199,210,254,0.5);
+      border-radius: 18px;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .contact-box-label {
+      font-size: 0.75em;
+      font-weight: 700;
+      color: #475569;
+      text-align: left;
+    }
+    .contact-box-main {
+      display: flex;
+      align-items: center;
+      gap: 0.45em;
+      flex-wrap: wrap;
+    }
+    .contact-box-main .contact-box-label {
+      margin: 0;
+    }
+    .contact-box-number {
+      color: #312e81;
+      font-size: 0.88em;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+    .contact-box-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.55em;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .contact-box-actions .contact-cta {
+      width: auto;
+      min-width: 0;
+      flex: 1 1 0;
+      padding-left: 0.9em;
+      padding-right: 0.9em;
+    }
+    .contact-copy-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45em;
+      min-height: 2.95em;
+      border-radius: 999px;
+      border: 1px solid #dbe3f4;
+      background: #fff;
+      color: #3730a3;
+      box-shadow: 0 0.3em 0.8em rgba(15,23,42,0.06);
+      padding: 0.82em 0.95em;
+      font-family: "Be Vietnam Pro", sans-serif;
+      font-size: 0.82em;
+      font-weight: 700;
+      cursor: pointer;
+      flex: 1 1 0;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+    }
+    .contact-copy-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 0.45em 1em rgba(15,23,42,0.1);
+      filter: brightness(1.02);
+    }
+    .contact-copy-btn:active {
+      transform: translateY(0);
+    }
+    .contact-copy-btn.is-copied {
+      background: #f0fdf4;
+      border-color: #bbf7d0;
+      color: #166534;
+      box-shadow: 0 0.45em 1em rgba(22,163,74,0.12);
+    }
+    .zalo-fallback {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5em 0.75em;
+      background: linear-gradient(180deg, #eef2ff 0%, #e0e7ff 100%);
+      border: 0.09em solid #a5b4fc;
+      border-radius: 1em;
+      padding: 0.56em 0.62em;
+      box-shadow: 0 0.65em 1.5em rgba(79,70,229,0.16), 0 0.12em 0.3em rgba(15,23,42,0.08);
+    }
+    .zalo-fallback-note {
+      margin: 0;
+      font-size: 0.69em;
+      color: #334155;
+      line-height: 1.45;
+      text-align: left;
+      flex: 1 1 11em;
+    }
+    .zalo-fallback-note strong {
+      color: #312e81;
+      font-weight: 800;
+    }
+    .zalo-copy-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999em;
+      border: 0.07em solid #dbe3f4;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+      color: #3730a3;
+      font-size: 0.75em;
+      font-weight: 700;
+      font-family: "Be Vietnam Pro", sans-serif;
+      padding: 0.56em 0.75em;
+      cursor: pointer;
+      width: fit-content;
+      white-space: nowrap;
+      flex: 0 0 auto;
+      box-shadow: 0 0.45em 1.1em rgba(15,23,42,0.10), 0 0.1em 0.24em rgba(15,23,42,0.07);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+    }
+    .zalo-copy-btn:hover {
+      filter: brightness(0.99);
+      transform: translateY(-0.06em);
+      box-shadow: 0 0.65em 1.35em rgba(15,23,42,0.14), 0 0.12em 0.3em rgba(15,23,42,0.08);
+    }
+    .contact-zalo-box {
+      margin-top: 0.75em;
+    }
+    .contact-zalo-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      flex-wrap: wrap;
+    }
+    .zalo-open-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999em;
+      border: 0;
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.75em;
+      font-weight: 700;
+      font-family: "Be Vietnam Pro", sans-serif;
+      padding: 0.56em 0.9em;
+      white-space: nowrap;
+      box-shadow: 0 6px 16px rgba(79,70,229,0.3);
+    }
+    .link-popup {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1em;
+      background: rgba(15, 23, 42, 0.62);
+      backdrop-filter: blur(0.875em);
+      -webkit-backdrop-filter: blur(0.875em);
+      z-index: 160;
+    }
+    .link-popup.open { display: flex; }
+    .link-popup-box {
+      width: min(27em, calc(100vw - 2em));
+      background: #fff;
+      border: 0.09em solid #c7d2fe;
+      border-radius: 1.5em;
+      box-shadow: 0 2em 5em rgba(15,23,42,0.3), 0 0 0 0.2em rgba(99,102,241,0.08);
+      padding: 1em;
+      display: grid;
+      gap: 0.875em;
+    }
+    .link-popup-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75em;
+    }
+    .link-popup-title {
+      margin: 0;
+      font-size: 1em;
+      font-weight: 800;
+      color: #0f172a;
+    }
+    .link-popup-sub {
+      margin: 0.25em 0 0;
+      font-size: 0.75em;
+      color: #64748b;
+      line-height: 1.5;
+    }
+    .link-popup-close {
+      border: 0;
+      background: #eef2ff;
+      color: #4338ca;
+      width: 2em;
+      height: 2em;
+      border-radius: 999em;
+      cursor: pointer;
+      font-size: 1em;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+    .link-popup-list {
+      display: grid;
+      gap: 0.75em;
+    }
+    .link-popup-item {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 0.75em;
+      align-items: center;
+      background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+      border: 0.09em solid #dbeafe;
+      border-radius: 1em;
+      padding: 0.75em;
+    }
+    .link-popup-icon {
+      width: 2.5em;
+      height: 2.5em;
+      border-radius: 0.875em;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: #fff;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+    .link-popup-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .link-popup-info {
+      min-width: 0;
+    }
+    .link-popup-name {
+      font-size: 0.81em;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .link-popup-url {
+      font-size: 0.69em;
+      color: #64748b;
+      margin-top: 0.2em;
+      word-break: break-word;
+    }
+    #zaloPopup .link-popup-url {
+      font-weight: 800;
+      color: #312e81;
+      font-size: 0.8em;
+    }
+    #zaloPopup {
+      align-items: center;
+      justify-content: center;
+      padding: 1em;
+    }
+    #zaloPopup .link-popup-box {
+      width: min(29em, calc(100vw - 1.15em));
+      background: linear-gradient(180deg, rgba(255,255,255,0.985) 0%, rgba(246,248,255,0.985) 100%);
+      color: #0f172a;
+      border: 0.07em solid rgba(199, 210, 254, 0.82);
+      border-radius: 1.6em;
+      box-shadow: 0 1.4em 3em rgba(79,70,229,0.16), 0 0.22em 0.48em rgba(15,23,42,0.08);
+      padding: 0.9em 0.9em 1em;
+      gap: 0.72em;
+      transform: translateY(0.6em) scale(0.98);
+      opacity: 0;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    #zaloPopup.open .link-popup-box {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+    #zaloPopup .link-popup-box::before {
+      content: none;
+    }
+    #zaloPopup .link-popup-head {
+      display: none;
+    }
+    #zaloPopup .link-popup-list {
+      gap: 0;
+    }
+    #zaloPopup .link-popup-item {
+      grid-template-columns: 1fr;
+      gap: 0.72em;
+      padding: 0.95em 0.98em;
+      border-radius: 1.15em;
+      background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+      border: 0.07em solid rgba(219, 234, 254, 0.95);
+      box-shadow: inset 0 0 0 0.01em rgba(255,255,255,0.03);
+    }
+    #zaloPopup .link-popup-row {
+      display: flex;
+      align-items: center;
+      gap: 0.55em;
+      flex-wrap: wrap;
+    }
+    #zaloPopup .link-popup-name {
+      font-size: 0.95em;
+      color: #475569;
+      font-weight: 800;
+    }
+    #zaloPopup .link-popup-url {
+      font-weight: 800;
+      color: #4338ca;
+      font-size: 1em;
+      letter-spacing: -0.01em;
+      margin-top: 0;
+    }
+    #zaloPopup .link-popup-actions {
+      display: flex;
+      gap: 0.72em;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    #zaloPopup .link-popup-btn {
+      min-height: 3.05em;
+      padding: 0.58em 0.9em;
+      font-size: 0.92em;
+      font-weight: 800;
+      border-radius: 999em;
+      letter-spacing: -0.01em;
+      box-shadow: 0 0.65em 1.35em rgba(37, 99, 235, 0.2);
+      transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
+      flex: 1 1 0;
+    }
+    #zaloPopup .link-popup-btn.open {
+      min-width: 0;
+      background: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%);
+      box-shadow: 0 0.8em 1.6em rgba(79,70,229,0.22);
+    }
+    #zaloPopup .link-popup-btn.copy {
+      border: 0.07em solid #dbe3f4;
+      color: #3730a3;
+      background: #ffffff;
+      box-shadow: 0 0.3em 0.8em rgba(15,23,42,0.06);
+      gap: 0.5em;
+    }
+    #zaloPopup .link-popup-btn:hover {
+      transform: translateY(-0.05em);
+      filter: brightness(1.05);
+      box-shadow: 0 0.7em 1.35em rgba(37, 99, 235, 0.3);
+    }
+    #zaloPopup .link-popup-btn:active {
+      transform: translateY(0);
+    }
+    #zaloPopup .link-popup-btn.copy.is-copied {
+      background: #f0fdf4;
+      border-color: #bbf7d0;
+      color: #166534;
+    }
+    #zaloPopup .link-popup-note {
+      color: #7c4a03;
+      background: #fff7ed;
+      border: 0.07em solid #fed7aa;
+      border-radius: 1.05em;
+      font-size: 0.75em;
+      line-height: 1.5;
+      padding: 0.78em 0.9em;
+    }
+    #zaloPopup .link-popup-note strong {
+      color: #c2410c;
+    }
+    @media (max-width: 430px) {
+      #zaloPopup {
+        padding: 0.72em;
+      }
+      #zaloPopup .link-popup-box {
+        width: calc(100vw - 1em);
+      }
+      #zaloPopup .link-popup-btn {
+        min-width: 0;
+        font-size: 0.86em;
+      }
+    }
+    .link-popup-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.4em;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    .link-popup-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999em;
+      text-decoration: none;
+      font-family: "Be Vietnam Pro", sans-serif;
+      font-size: 0.72em;
+      font-weight: 700;
+      padding: 0.56em 0.8em;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .link-popup-btn.open {
+      border: 0;
+      color: #fff;
+      background: linear-gradient(135deg, #4338ca, #0ea5e9);
+      box-shadow: 0 0.45em 1.2em rgba(79,70,229,0.28);
+      min-width: 4.1em;
+      padding: 0.62em 0.95em;
+    }
+    .link-popup-btn.copy {
+      border: 0.07em solid #dbe3f4;
+      color: #3730a3;
+      background: #fff;
+      box-shadow: 0 0.3em 0.8em rgba(15,23,42,0.08);
+    }
+    .link-popup-note {
+      display: flex;
+      gap: 0.625em;
+      align-items: flex-start;
+      font-size: 0.72em;
+      color: #475569;
+      background: #fff7ed;
+      border: 0.07em solid #fed7aa;
+      border-radius: 1em;
+      padding: 0.75em;
+      line-height: 1.5;
+    }
+    #commPopup {
+      align-items: center;
+      justify-content: center;
+      padding: 1em;
+    }
+    #commPopup .link-popup-box {
+      width: min(29em, calc(100vw - 1.15em));
+      background: linear-gradient(180deg, rgba(255,255,255,0.985) 0%, rgba(246,248,255,0.985) 100%);
+      color: #0f172a;
+      border: 0.07em solid rgba(199, 210, 254, 0.82);
+      border-radius: 1.6em;
+      box-shadow: 0 1.4em 3em rgba(79,70,229,0.16), 0 0.22em 0.48em rgba(15,23,42,0.08);
+      padding: 0.9em 0.9em 1em;
+      gap: 0.72em;
+      transform: translateY(0.6em) scale(0.98);
+      opacity: 0;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    #commPopup.open .link-popup-box {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+    #commPopup .link-popup-box::before {
+      content: none;
+    }
+    #commPopup .link-popup-head {
+      align-items: flex-start;
+    }
+    #commPopup .link-popup-title {
+      font-size: 1em;
+      color: #0f172a;
+    }
+    #commPopup .link-popup-sub {
+      margin-top: 0.3em;
+      font-size: 0.75em;
+      color: #64748b;
+      line-height: 1.5;
+    }
+    #commPopup .link-popup-sub strong {
+      color: #3730a3;
+    }
+    #commPopup .link-popup-close {
+      display: inline-grid;
+      place-items: center;
+    }
+    #commPopup .link-popup-list {
+      gap: 0.75em;
+    }
+    #commPopup .link-popup-item {
+      grid-template-columns: auto 1fr auto;
+      gap: 0.75em;
+      padding: 0.8em;
+      border-radius: 1.05em;
+      background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+      border: 0.07em solid rgba(219, 234, 254, 0.95);
+      box-shadow: inset 0 0 0 0.01em rgba(255,255,255,0.03);
+    }
+    #commPopup .link-popup-icon {
+      width: 2.5em;
+      height: 2.5em;
+      border-radius: 0.9em;
+      box-shadow: 0 0.7em 1.4em rgba(15, 23, 42, 0.1);
+    }
+    #commPopup .link-popup-name {
+      color: #0f172a;
+      font-size: 0.85em;
+      font-weight: 700;
+    }
+    #commPopup .link-popup-url {
+      color: #64748b;
+      font-size: 0.69em;
+      margin-top: 0.2em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #commPopup .link-popup-actions {
+      display: flex;
+      gap: 0.72em;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    #commPopup .link-popup-btn {
+      min-height: 2.8em;
+      min-width: 6em;
+      padding: 0.6em 1.4em;
+      font-size: 0.88em;
+      font-weight: 700;
+      border-radius: 999em;
+      letter-spacing: -0.01em;
+      transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
+      cursor: pointer;
+      font-family: "Be Vietnam Pro", sans-serif;
+    }
+    #commPopup .link-popup-btn.open {
+      border: 0;
+      color: #fff;
+      background: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%);
+      box-shadow: 0 3px 10px rgba(79,70,229,0.28);
+    }
+    #commPopup .link-popup-btn.copy {
+      border: 1px solid #dbe3f4;
+      color: #3730a3;
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(15,23,42,0.07);
+    }
+    #commPopup .link-popup-btn:hover {
+      transform: translateY(-0.05em);
+      filter: brightness(1.05);
+      box-shadow: 0 0.7em 1.35em rgba(37, 99, 235, 0.3);
+    }
+    #commPopup .link-popup-btn:active {
+      transform: translateY(0);
+    }
+    #commPopup .link-popup-btn.copy.is-copied {
+      background: #f0fdf4;
+      border-color: #bbf7d0;
+      color: #166534;
+      box-shadow: 0 0.7em 1.35em rgba(22, 163, 74, 0.14);
+    }
+    #commPopup .link-popup-note {
+      color: #7c4a03;
+      background: #fff7ed;
+      border: 0.07em solid #fed7aa;
+      border-radius: 1.05em;
+      font-size: 0.75em;
+      line-height: 1.5;
+      padding: 0.78em 0.9em;
+    }
+    #commPopup .link-popup-note strong {
+      color: #c2410c;
+    }
+    #commPopup .link-popup-foot {
+      display: block;
+    }
+    #commPopup .link-popup-dismiss {
+      width: 100%;
+      min-height: 2.8em;
+      border-radius: 999em;
+      border: 0.07em solid #dbe3f4;
+      background: #ffffff;
+      color: #3730a3;
+      font-family: "Be Vietnam Pro", sans-serif;
+      font-size: 0.88em;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 0.3em 0.8em rgba(15,23,42,0.06);
+    }
+    @media (max-width: 430px) {
+      #commPopup {
+        padding: 0.72em;
+      }
+      #commPopup .link-popup-box {
+        width: calc(100vw - 1em);
+      }
+      #commPopup .link-popup-item {
+        grid-template-columns: auto 1fr;
+      }
+      #commPopup .link-popup-actions {
+        grid-column: 1 / -1;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        width: 100%;
+      }
+      #commPopup .link-popup-btn {
+        min-width: 0;
+        flex: 1 1 0;
+        font-size: 0.84em;
+        padding: 0.56em 1.1em;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .link-popup-actions {
+        flex-wrap: nowrap;
+      }
+      .link-popup-btn {
+        min-width: 0;
+      }
+    }
+
+    .topbar-spacer { flex: 1; }
+
+    /* Mobile: ẩn chips, hiện icons liên hệ */
+    .mob-contact-icons { display: none; }
+    @media (max-width: 680px) {
+      .top-actions { display: none; }
+      .mob-contact-icons {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .mob-icon {
+        width: 28px; height: 28px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        box-shadow: 0 2px 8px rgba(15,23,42,0.08);
+        flex-shrink: 0;
+        display: inline-flex;
+      }
+      .mob-icon img {
+        width: 100%; height: 100%;
+        object-fit: cover; display: block;
+      }
+    }
+
+    /* ── Bottom Nav Bar ── */
+    .bottom-nav { display: none; }
+    @media (max-width: 680px) {
+      .bottom-nav {
+        display: block;
+        position: fixed;
+        bottom: 0; left: 0; right: 0;
+        z-index: 40;
+        background: linear-gradient(to top, rgba(247,248,252,0.98) 0%, rgba(247,248,252,0.82) 55%, rgba(247,248,252,0) 100%);
+        padding: 12px 14px calc(20px + env(safe-area-inset-bottom));
+        pointer-events: auto;
+      }
+      .bottom-nav-float {
+        pointer-events: auto;
+        touch-action: manipulation;
+        width: fit-content;
+        margin: 0 auto;
+        background: rgba(255,255,255,0.45);
+        backdrop-filter: blur(16px) saturate(1.6);
+        -webkit-backdrop-filter: blur(16px) saturate(1.6);
+        border-radius: 999px;
+        border: 1px solid rgba(255,255,255,0.60);
+        box-shadow:
+          0 1.5px 0 rgba(255,255,255,0.8) inset,
+          0 -1px 0  rgba(0,0,0,0.04)      inset,
+          0 6px 24px rgba(99,102,241,0.10),
+          0 2px 10px rgba(0,0,0,0.08);
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+      }
+      body { padding-bottom: 98px; }
+    }
+    .bottom-nav .chip,
+    .bottom-nav .chip.primary {
+      appearance: none;
+      -webkit-appearance: none;
+      font-family: "Be Vietnam Pro", sans-serif;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+    .cta-row--mt { margin-top: 14px; }
+
+    /* ── Keyword highlight in bullets ── */
+    .hl {
+      font-weight: 800;
+      color: #4338ca;
+    }
+
+    /* ── Info Toast (slides from top) ── */
+    .info-toast {
+      position: fixed;
+      top: -240px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(360px, calc(100vw - 28px));
+      background: #fff;
+      border: 1.5px solid #c7d2fe;
+      border-radius: 28px;
+      box-shadow: 0 8px 16px rgba(67,56,202,0.2), 0 24px 64px rgba(15,23,42,0.3), 0 2px 4px rgba(15,23,42,0.12);
+      padding: 16px;
+      z-index: 210;
+      transition: top 0.45s cubic-bezier(0.34,1.46,0.64,1);
+      display: grid;
+      gap: 12px;
+      pointer-events: none;
+    }
+    .info-toast.show {
+      top: calc(76px + env(safe-area-inset-top, 0px));
+      pointer-events: auto;
+    }
+    .info-toast-head {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+    }
+    .info-toast-ico {
+      width: 40px; height: 40px;
+      border-radius: 12px;
+      background: #eef2ff;
+      border: 1px solid #c7d2fe;
+      display: grid;
+      place-items: center;
+      color: #4338ca;
+      flex-shrink: 0;
+    }
+    .info-toast-title {
+      font-size: 1.125em;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+    .info-toast-list {
+      margin: 0; padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 7px;
+    }
+    .info-toast-list li {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 0.81em;
+      font-weight: 600;
+      color: #334155;
+    }
+    .info-toast-check {
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+    .info-toast-ok {
+      border: 0;
+      border-radius: 999px;
+      padding: 0.69em;
+      font-size: 0.875em;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(135deg, #4f46e5, #0ea5e9);
+      cursor: pointer;
+      font-family: "Be Vietnam Pro", sans-serif;
+      box-shadow: 0 4px 14px rgba(79,70,229,0.3);
+      transition: filter 0.15s, box-shadow 0.15s, transform 0.1s;
+      width: 100%;
+    }
+    .info-toast-ok:hover { filter: brightness(1.1); transform: translateY(-1px); }
+    .info-toast-ok:active { transform: translateY(0); }
+  </style>
+  <script>// protect.js — v4 (anti-copy only, no overlay)
+(() => {
+  "use strict";
+
+  const isEditableTarget = (target) => {
+    if (!target || !(target instanceof Element)) return false;
+    return !!target.closest("input, textarea, [contenteditable], [contenteditable='true'], [contenteditable='']");
+  };
+
+  // ============================================================
+  // LAYER 1 — CHỐNG COPY / CHỌN TEXT
+  // ============================================================
+
+  const antiSelectStyle = document.createElement("style");
+  antiSelectStyle.textContent = `
+    *{
+      -webkit-user-select:none!important;
+      -moz-user-select:none!important;
+      -ms-user-select:none!important;
+      user-select:none!important;
+    }
+    input,textarea{
+      -webkit-user-select:text!important;
+      user-select:text!important;
+    }
+  `;
+  (document.head || document.documentElement).appendChild(antiSelectStyle);
+
+  document.addEventListener("selectstart", (e) => { if (!isEditableTarget(e.target)) e.preventDefault(); }, true);
+  document.addEventListener("dragstart",   (e) => { if (!isEditableTarget(e.target)) e.preventDefault(); }, true);
+  document.addEventListener("copy",        (e) => {
+    if (isEditableTarget(e.target)) return;
+    try { e.clipboardData?.setData("text/plain", ""); } catch {}
+    e.preventDefault();
+  }, true);
+  document.addEventListener("cut",         (e) => { if (!isEditableTarget(e.target)) e.preventDefault(); }, true);
+  document.addEventListener("paste",       (e) => { if (!isEditableTarget(e.target)) e.preventDefault(); }, true);
+  document.addEventListener("mousedown",   (e) => { if(e.button===2 && !isEditableTarget(e.target)) e.preventDefault(); }, true);
+
+  const antiCopyKeys = (e) => {
+    if (isEditableTarget(e.target)) return;
+    const key  = (e.key || "").toLowerCase();
+    const ctrl = e.ctrlKey || e.metaKey;
+    if (ctrl && ["c","x","a","v"].includes(key)) {
+      e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation();
+    }
+  };
+  window.addEventListener("keydown", antiCopyKeys, true);
+
+
+  // ============================================================
+  // LAYER 2 — CHẶN PHÍM TẮT DEVTOOLS / VIEW SOURCE
+  // ============================================================
+
+  document.addEventListener("contextmenu", (e) => { if (!isEditableTarget(e.target)) e.preventDefault(); }, true);
+
+  const ctrlOrCmd = (e) => e.ctrlKey || e.metaKey;
+
+  const blockHotkeys = (e) => {
+    if (isEditableTarget(e.target)) return;
+    const key  = (e.key || "").toLowerCase();
+    const code = (e.code || "");
+    const ctrl  = ctrlOrCmd(e);
+    const shift = !!e.shiftKey;
+    const alt   = !!e.altKey;
+    const stop  = () => { e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation(); };
+
+    if (key === "f12" || code === "F12")                           return stop();
+    if (ctrl && !shift && !alt && key === "u")                     return stop();
+    if (ctrl && shift  && !alt && ["i","j","c"].includes(key))     return stop();
+    if (ctrl && shift  && !alt && ["k","e","m"].includes(key))     return stop();
+    if (ctrl && shift  && !alt && key === "p")                     return stop();
+    if (ctrl && !shift && !alt && ["s","p"].includes(key))         return stop();
+  };
+
+  window.addEventListener("keydown", blockHotkeys, true);
+  window.addEventListener("keyup",   blockHotkeys, true);
+
+})();
+</script>
+  <script>
+    (function () {
+      var oldHosts = new Set(["binpinkgold.lnth.workers.dev", "www.bingenz.com"]);
+      if (oldHosts.has(location.hostname) || location.hostname.endsWith(".workers.dev")) {
+        location.replace("https://bingenz.com" + location.pathname + location.search);
+        return;
+      }
+
+      var knownSectionHashes = new Set([
+        "#home",
+        "#products",
+        "#product",
+        "#contact",
+        "#community",
+        "#source-code"
+      ]);
+
+      if (knownSectionHashes.has(location.hash) && history.replaceState) {
+        history.replaceState(null, "", location.pathname + location.search);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="logo">
+        <div class="logo-wrap">
+          <span>BinGenZ</span>
+          <div class="logo-particle lp1"></div>
+          <div class="logo-particle lp2"></div>
+          <div class="logo-particle lp3"></div>
+          <div class="logo-particle lp4"></div>
+          <div class="logo-particle lp5"></div>
+        </div>
+      </div>
+      <div class="top-actions">
+        <a class="chip" href="javascript:void(0)" onclick="navScrollTo('home')">Home</a>
+        <a class="chip" href="javascript:void(0)" onclick="navScrollTo('contact')">Liên hệ</a>
+        <span class="topbar-spacer"></span>
+        <a class="chip primary js-nav-cta" href="javascript:void(0)">Xem dịch vụ</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-box">
+        <div>
+          <div class="hero-card">
+          <span class="kicker"><span class="kicker-dot"></span>AI &amp; Premium Account Store</span>
+          <h1 class="title">
+            <span class="title-main">Tài khoản premium</span>
+            <span class="title-sub">Thiết kế web <span class="title-and">và</span> <span class="accent">bot Telegram</span></span>
+          </h1>
+          <p>Nhận đăng ký tài khoản Premium, thiết kế website theo yêu cầu và tạo bot Telegram phục vụ bán hàng/chăm sóc khách hàng.</p>
+          <div class="hero-pill">
+            Chỉ từ 3,000đ / ngày
+          </div>
+          <div class="hero-cta-row">
+            <a class="chip primary" href="javascript:void(0)" onclick="openFirstProduct(event)">Xem sản phẩm</a>
+            <a class="hero-outline-btn" href="javascript:void(0)" onclick="navScrollTo('community')">Tham gia Group</a>
+            <a class="hero-outline-btn hero-trust-btn" href="https://www.facebook.com/share/p/1C4sknRzE3/" target="_blank" rel="noopener" onclick="showRedirectToast('Facebook','assets/images/fb.jpg')"><span class="hero-trust-dot"></span><span class="hero-trust-fb">f</span>Check uy tín với hơn 100 khách hàng</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat-card">
+              <div class="hero-stat-value">1 phút</div>
+              <div class="hero-stat-label">Kích hoạt tài khoản</div>
+            </div>
+            <div class="hero-stat-card">
+              <div class="hero-stat-value">24/7</div>
+              <div class="hero-stat-label">Hỗ trợ phản hồi</div>
+            </div>
+            <div class="hero-stat-card">
+              <div class="hero-stat-top">
+                <div class="hero-stat-value">2k+</div>
+                <div class="hero-stat-avatars">
+                  <img src="assets/images/avt1.jpg" alt="" width="22" height="22" decoding="async">
+                  <img src="assets/images/avt2.jpg" alt="" width="22" height="22" decoding="async">
+                  <img src="assets/images/avt3.jpg" alt="" width="22" height="22" decoding="async">
+                  <img src="assets/images/avt4.jpg" alt="" width="22" height="22" decoding="async">
+                  <img src="assets/images/avt5.jpg" alt="" width="22" height="22" decoding="async">
+                </div>
+              </div>
+              <div class="hero-stat-label">Khách theo dõi</div>
+            </div>
+            <div class="hero-stat-card">
+              <div class="hero-stat-value">100%</div>
+              <div class="hero-stat-label">Bảo hành hoàn tiền</div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section" id="community" style="padding-bottom: 48px;">
+      <div class="container community-wrap">
+        <div class="community-split-top">
+          <div class="community-split-text">
+            <div class="community-badge"><span style="width:6px;height:6px;border-radius:50%;background:#6366f1;"></span> Cộng đồng</div>
+            <h3 class="community-title">GenZ Đam Mê IT · Vibe Code · AI</h3>
+            <p class="community-sub">Chơi mini game nhận <strong class="community-sub-reward">ChatGPT Plus Codex · YouTube · CapCut</strong></p>
+          </div>
+        </div>
+
+        <!-- Facebook Group Mockup -->
+        <div style="margin-bottom:1.125em;">
+          <div class="fb-mockup">
+            <!-- Cover photo -->
+            <div class="fb-cover">
+              <div class="fb-cover-gradient"></div>
+              <div class="fb-cover-text">GenZ Đam Mê IT · Vibe Code · AI</div>
+            </div>
+            <!-- Group info row -->
+            <div class="fb-info">
+              <div class="fb-avatar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4338ca" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <div class="fb-name">GenZ Đam Mê IT · Vibe Code · AI</div>
+                <div class="fb-meta">200+ thành viên · Công khai</div>
+              </div>
+              <a class="fb-join-btn" href="javascript:void(0)" onclick="commOpenPopup()">+ Tham gia</a>
+            </div>
+            <!-- Post preview -->
+            <div class="fb-post">
+              <div class="fb-post-avatar"></div>
+              <div class="fb-post-body">
+                <div class="fb-post-line" style="width:70%;background:#c7d2fe;"></div>
+                <div class="fb-post-line" style="width:50%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- Gift boxes -->
+          <div class="gift-box" style="margin-bottom:0.625em;">
+            <span class="ico">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 1 1 0-5c3.5 0 4.5 5 4.5 5z"/><path d="M12 7h4.5a2.5 2.5 0 1 0 0-5c-3.5 0-4.5 5-4.5 5z"/></svg>
+            </span>
+            <div>
+              <div class="gift-title">Quà tặng miễn phí</div>
+              <div class="gift-sub">ở bài viết ghim trong group</div>
+            </div>
+          </div>
+          <div class="gift-box">
+            <span class="ico">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </span>
+            <div>
+              <div class="gift-title">File code miễn phí</div>
+              <div class="gift-sub">HTML · CSS · JS · Python</div>
+            </div>
+          </div>
+          <a class="cta buy community-btn" href="javascript:void(0)" onclick="commOpenPopup()">Tham gia Group ngay</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="container">
+        <h2 style="margin-bottom:6px;">Tài khoản Premium</h2>
+        <div style="width:40px;height:4px;background:linear-gradient(135deg,#4338ca,#0ea5e9);border-radius:999px;margin-bottom:22px;"></div>
+        <div class="grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="source-code">
+      <div class="container">
+        <h2 style="margin-bottom:6px;">Dịch vụ chuyên nghiệp</h2>
+        <div style="width:40px;height:4px;background:linear-gradient(135deg,#4338ca,#0ea5e9);border-radius:999px;margin-bottom:22px;"></div>
+        <div class="grid">
+          <article class="wide wide-code" onclick="openDevModal()" style="cursor:pointer;">
+            <div class="wide-deco">
+              <svg viewBox="0 0 64 64" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="20,20 8,32 20,44" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="44,20 56,32 44,44" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="38" y1="14" x2="26" y2="50" stroke="white" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Lập trình</h3>
+            <p style="color:rgba(255,255,255,0.85);font-size:0.84em;margin:0;line-height:1.6;">Landing page, Bot Telegram, Tool tự động hóa.</p>
+          </article>
+        </div>
+        <div class="wlc-ad" style="margin-top:1.125em;">
+          <div class="wlc-ad-inner">
+            <div class="wlc-ad-head">
+              <div class="wlc-ad-logo"><img src="assets/images/fhd.jpg" alt="FullHouse Dev" loading="lazy" decoding="async"></div>
+              <div>
+                <div class="wlc-ad-qc">Trung tâm dạy học lập trình</div>
+                <div class="wlc-ad-brand">FullHouse Dev</div>
+              </div>
+            </div>
+            <p class="wlc-ad-desc">Giảng viên chuyên nghiệp · Kèm 1:1 · Cơ bản đến nâng cao</p>
+            <div class="wlc-ad-pills">
+              <span class="wlc-ad-pill">C/C++/Java</span>
+              <span class="wlc-ad-pill">Web Full-Stack</span>
+              <span class="wlc-ad-pill">Python</span>
+              <span class="wlc-ad-pill">AI & Data</span>
+              <span class="wlc-ad-pill">HTML/CSS</span>
+              <span class="wlc-ad-pill">CTDL & GT</span>
+              <span class="wlc-ad-pill">SQL</span>
+            </div>
+            <a class="wlc-ad-cta" href="https://fullhousedev.com/khoa-hoc/course-cpp-beginner/?ref=4de39e7557" target="_blank" rel="noopener"><span class="wlc-ad-dot"></span>Khám phá khóa học ngay</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Liên hệ</h2>
+        <div class="contact-list">
+          <a class="contact-item" href="https://www.facebook.com/share/1AUUKX6NHa/" target="_blank" rel="noopener" aria-label="Facebook">
+            <img src="assets/images/fb.jpg" alt="Facebook" width="42" height="42" loading="lazy" decoding="async">
+          </a>
+          <a class="contact-item" href="https://www.tiktok.com/@bingenz_" target="_blank" rel="noopener" aria-label="TikTok">
+            <img src="assets/images/tiktok.jpg" alt="TikTok" width="42" height="42" loading="lazy" decoding="async">
+          </a>
+          <a class="contact-item" href="https://t.me/binpinkgold" target="_blank" rel="noopener" aria-label="Telegram">
+            <img src="assets/images/tele.jpg" alt="Telegram" width="42" height="42" loading="lazy" decoding="async">
+          </a>
+          <a class="contact-item js-zalo-link" href="javascript:void(0)" onclick="zaloOpenPopup()" aria-label="Zalo">
+            <img src="assets/images/zalo.jpg" alt="Zalo" width="42" height="42" loading="lazy" decoding="async">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="footer">© 2026 Bingenz.com · 08989.08101</div>
+
+  <div class="link-popup" id="commPopup" onclick="if(event.target===this)commClosePopup()">
+    <div class="link-popup-box">
+      <div class="link-popup-head">
+        <div>
+          <h3 class="link-popup-title">Tham gia cộng đồng 🎉</h3>
+          <p class="link-popup-sub">Tham gia 2 nhóm để giao lưu và chơi mini game nhận quà</p>
+        </div>
+        <button class="link-popup-close" type="button" onclick="commClosePopup()">×</button>
+      </div>
+      <div class="link-popup-list">
+        <div class="link-popup-item">
+          <div class="link-popup-icon"><img src="assets/images/fb.jpg" alt="Facebook"></div>
+          <div class="link-popup-info">
+            <div class="link-popup-name">Facebook Group</div>
+            <div class="link-popup-url">facebook.com/groups/1083123091540550</div>
+          </div>
+          <div class="link-popup-actions">
+            <a class="link-popup-btn open" href="https://www.facebook.com/groups/1083123091540550/" target="_blank" rel="noopener" onclick="showRedirectToast('Facebook Group','assets/images/fb.jpg');commClosePopup()">Mở</a>
+            <button class="link-popup-btn copy" type="button" onclick="commCopyLink(this,'https://www.facebook.com/groups/1083123091540550/','Facebook Group','assets/images/fb.jpg')">Copy</button>
+          </div>
+        </div>
+        <div class="link-popup-item">
+          <div class="link-popup-icon"><img src="assets/images/zalo.jpg" alt="Zalo"></div>
+          <div class="link-popup-info">
+            <div class="link-popup-name">Zalo Group</div>
+            <div class="link-popup-url">zalo.me/g/iaujemqdy7tpv6d0bapx</div>
+          </div>
+          <div class="link-popup-actions">
+            <a class="link-popup-btn open" href="https://zalo.me/g/iaujemqdy7tpv6d0bapx" target="_blank" rel="noopener" onclick="showRedirectToast('Zalo Group','assets/images/zalo.jpg');commClosePopup()">Mở</a>
+            <button class="link-popup-btn copy" type="button" onclick="commCopyLink(this,'https://zalo.me/g/iaujemqdy7tpv6d0bapx','Zalo Group','assets/images/zalo.jpg')">Copy</button>
+          </div>
+        </div>
+      </div>
+      <div class="link-popup-note">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <div>Nếu không mở được, hãy <strong>Copy</strong> rồi mở bằng <strong>Chrome/Safari</strong>.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="link-popup" id="zaloPopup" onclick="if(event.target===this)zaloClosePopup()">
+    <div class="link-popup-box">
+      <div class="link-popup-list">
+        <div class="link-popup-item">
+          <div class="link-popup-row">
+            <div class="link-popup-name">Liên hệ Zalo</div>
+            <div class="link-popup-url">0898908101</div>
+          </div>
+          <div class="link-popup-actions">
+            <a class="link-popup-btn open" href="https://zalo.me/0898908101" target="_blank" rel="noopener" onclick="showRedirectToast('Zalo','assets/images/zalo.jpg');zaloClosePopup()">Liên hệ</a>
+            <button class="link-popup-btn copy" id="zaloCopyBtn" type="button" onclick="copyContactZalo()">
+              <span class="copy-label">Copy số</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="link-popup-note">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <div>Nếu không mở được. <strong>Copy số</strong> rồi tìm trên Zalo.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="link-popup" id="fhdPopup" onclick="if(event.target===this)fhdClosePopup()">
+    <div class="link-popup-box">
+      <div class="link-popup-head">
+        <div>
+          <h3 class="link-popup-title">FullHouse Dev</h3>
+          <p class="link-popup-sub">Mở trang khóa học trực tiếp hoặc copy link để dán vào trình duyệt.</p>
+        </div>
+        <button class="link-popup-close" type="button" onclick="fhdClosePopup()">×</button>
+      </div>
+      <div class="link-popup-list">
+        <div class="link-popup-item">
+          <div class="link-popup-icon"><img src="assets/images/fhd.jpg" alt="FullHouse Dev"></div>
+          <div class="link-popup-info">
+            <div class="link-popup-name">Khóa học FullHouse Dev</div>
+            <div class="link-popup-url">fullhousedev.com/khoa-hoc/course-cpp-beginner</div>
+          </div>
+          <div class="link-popup-actions">
+            <a class="link-popup-btn open" href="https://fullhousedev.com/khoa-hoc/course-cpp-beginner/?ref=4de39e7557" target="_blank" rel="noopener" onclick="showRedirectToast('FullHouse Dev','assets/images/fhd.jpg');fhdClosePopup()">Mở</a>
+            <button class="link-popup-btn copy" type="button" onclick="fhdCopyLink()">Copy</button>
+          </div>
+        </div>
+      </div>
+      <div class="link-popup-note">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <div>Nếu trang không mở được, bấm <strong>Copy</strong> rồi dán link vào Chrome hoặc Safari.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Modal -->
+  <!-- Dev Service Modal -->
+  <div class="modal" id="devModal" onclick="if(event.target===this)closeDevModal()">
+    <div class="modal-box">
+      <div class="modal-head">
+        <div class="modal-head-left">
+          <h3 class="modal-title">Dịch vụ lập trình</h3>
+        </div>
+        <button class="close-btn" onclick="closeDevModal()">Đóng</button>
+      </div>
+      <div class="modal-body">
+        <div style="background:#f8faff;border:1px solid #e0e7ff;border-radius:18px;padding:16px;margin-bottom:6px;">
+          <div class="wlc-services" style="margin-bottom:8px;">
+          <div class="wlc-service-item">
+            <svg class="wlc-svc-svg" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="72" width="58" height="3" rx="1.5" fill="#d8dfe8"/><rect x="10" y="40" width="54" height="34" rx="4" fill="#dce3f0"/><rect x="12" y="42" width="50" height="30" rx="3" fill="#2d3a4a"/><rect x="14" y="44" width="46" height="26" rx="2" fill="#f8faff"/><rect x="14" y="44" width="46" height="6" rx="2" fill="#6366f1"/><rect x="14" y="44" width="46" height="2.5" rx="1" fill="#4f46e5"/><circle cx="18" cy="47" r="1.2" fill="rgba(255,255,255,0.8)"/><circle cx="22" cy="47" r="1.2" fill="rgba(255,255,255,0.8)"/><circle cx="26" cy="47" r="1.2" fill="rgba(255,255,255,0.8)"/><rect x="16" y="52" width="28" height="10" rx="1.5" fill="#f97316" opacity="0.85"/><rect x="16" y="52" width="28" height="3" rx="1" fill="#ea6c00" opacity="0.6"/><rect x="46" y="52" width="12" height="4" rx="1" fill="#22c55e" opacity="0.85"/><rect x="46" y="58" width="12" height="4" rx="1" fill="#06b6d4" opacity="0.85"/><rect x="16" y="64" width="42" height="2" rx="1" fill="#e2e8f0"/><rect x="16" y="68" width="30" height="2" rx="1" fill="#e2e8f0"/><g transform="translate(2,62)"><rect x="0" y="4" width="10" height="10" rx="1.5" fill="#f97316"/><polygon points="0,4 5,0 15,0 10,4" fill="#fb923c"/><polygon points="10,4 15,0 15,10 10,14" fill="#ea6c00"/></g><g transform="translate(14,66)"><rect x="0" y="4" width="8" height="8" rx="1" fill="#3b82f6"/><polygon points="0,4 4,0 12,0 8,4" fill="#60a5fa"/><polygon points="8,4 12,0 12,8 8,12" fill="#2563eb"/></g>
+            </svg>
+            <div class="wlc-svc-name">Thiết kế Website</div>
+            <div class="wlc-svc-note">Landing page, portfolio,<br>store đầy đủ tính năng</div>
+          </div>
+          <div class="wlc-service-item">
+            <svg class="wlc-svc-svg" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="34" cy="42" r="26" fill="#29b6f6"/><circle cx="34" cy="42" r="26" fill="url(#tggrad2)"/><defs><radialGradient id="tggrad2" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#54d2fd"/><stop offset="100%" stop-color="#1a9fd4"/></radialGradient></defs><path d="M16 41.5 L52 28 L43 56 L34 48 L27 53 L28 44 Z" fill="white" opacity="0.95"/><path d="M28 44 L34 48 L43 56 L38 44 Z" fill="white" opacity="0.6"/><path d="M28 44 L43 36 L38 44 Z" fill="rgba(0,0,0,0.07)"/><rect x="56" y="26" width="26" height="22" rx="7" fill="#e0e7ff" stroke="#a5b4fc" stroke-width="1.2"/><line x1="69" y1="26" x2="69" y2="20" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round"/><circle cx="69" cy="18.5" r="3" fill="#6366f1"/><circle cx="69" cy="18.5" r="1.5" fill="#818cf8"/><circle cx="63" cy="35" r="4" fill="white" stroke="#c7d2fe" stroke-width="0.8"/><circle cx="75" cy="35" r="4" fill="white" stroke="#c7d2fe" stroke-width="0.8"/><circle cx="64" cy="35.5" r="2" fill="#3730a3"/><circle cx="76" cy="35.5" r="2" fill="#3730a3"/><circle cx="64.8" cy="34.5" r="0.8" fill="white"/><circle cx="76.8" cy="34.5" r="0.8" fill="white"/><path d="M62 42 Q69 47 76 42" stroke="#6366f1" stroke-width="1.8" stroke-linecap="round" fill="none"/><rect x="58" y="50" width="22" height="18" rx="5" fill="#c7d2fe" stroke="#a5b4fc" stroke-width="1.2"/><rect x="65" y="47" width="8" height="4" rx="2" fill="#ddd6fe"/><circle cx="64" cy="57" r="2.5" fill="#6366f1" opacity="0.7"/><circle cx="69" cy="57" r="2.5" fill="#818cf8" opacity="0.7"/><circle cx="74" cy="57" r="2.5" fill="#a5b4fc" opacity="0.7"/><rect x="62" y="62" width="14" height="3" rx="1.5" fill="#a5b4fc" opacity="0.5"/>
+            </svg>
+            <div class="wlc-svc-name">Tạo Bot Telegram</div>
+            <div class="wlc-svc-note">Tự động hóa, phân tích<br>dữ liệu, chat bot AI</div>
+          </div>
+        </div>
+
+        <!-- Accordion chi tiết -->
+        <button onclick="toggleDevDetail(this)" style="width:100%;background:none;border:1px solid #c7d2fe;border-radius:12px;padding:10px 14px;font-size:0.81em;font-weight:700;color:#4338ca;cursor:pointer;display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;">
+          Xem chi tiết dịch vụ
+          <svg id="devDetailArrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4338ca" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <ul id="devDetailList" style="display:none;list-style:none;padding:8px 4px 4px;margin:0;">
+          <li style="display:flex;align-items:flex-start;gap:8px;padding:5px 0;font-size:0.81em;color:#334155;"><svg style="flex-shrink:0;margin-top:2px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Thiết kế Website theo yêu cầu, từ landing page, portfolio đến web bán hàng đầy đủ tính năng.</li>
+          <li style="display:flex;align-items:flex-start;gap:8px;padding:5px 0;font-size:0.81em;color:#334155;"><svg style="flex-shrink:0;margin-top:2px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Bot Telegram thông minh: bot bán hàng, box chat, script và phân tích dữ liệu.</li>
+          <li style="display:flex;align-items:flex-start;gap:8px;padding:5px 0;font-size:0.81em;color:#334155;"><svg style="flex-shrink:0;margin-top:2px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Hỗ trợ làm bài tập lập trình: code theo yêu cầu, giải thích chi tiết, giao đúng tiến độ.</li>
+          <li style="display:flex;align-items:flex-start;gap:8px;padding:5px 0;font-size:0.81em;color:#334155;"><svg style="flex-shrink:0;margin-top:2px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Bảo hành miễn phí sau bàn giao, báo giá nhanh, giao đúng hẹn.</li>
+        </ul>
+        </div><!-- end box -->
+
+        <div class="contact-box" style="margin-top:4px;">
+          <div class="contact-box-main">
+            <span class="contact-box-label">Liên hệ Zalo</span>
+            <span class="contact-box-number">0898908101</span>
+          </div>
+          <div class="contact-box-actions">
+            <a class="contact-cta zalo" href="https://zalo.me/0898908101" target="_blank" rel="noopener" onclick="showRedirectToast('Zalo','assets/images/zalo.jpg')">
+              <img src="assets/images/zalo.jpg" width="22" height="22" style="border-radius:6px;object-fit:cover;flex-shrink:0;" alt="Zalo">
+              Liên hệ
+            </a>
+            <button class="contact-copy-btn" id="devZaloCopyBtn" type="button" onclick="copyDevZalo()">Copy số</button>
+          </div>
+        </div>
+        <div class="inline-zalo-note">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <div>Nếu không mở được. <strong>Copy số</strong> rồi tìm trên Zalo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="productModal" onclick="if(event.target===this)closeModal()">
+    <div class="modal-box">
+      <div class="modal-head">
+        <div class="modal-head-left">
+          <img id="mHeadIco" class="modal-head-ico" src="assets/images/GPT.jpg" alt="Icon sản phẩm" width="40" height="40" loading="lazy" decoding="async">
+          <h3 class="modal-title" id="mName">Thông tin sản phẩm</h3>
+        </div>
+        <button class="close-btn" onclick="closeModal()">Đóng</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-desc-wrap" id="mDescWrap">
+          <ul class="modal-list" id="mBullets"></ul>
+        </div>
+        <div class="contact-box">
+          <div class="contact-box-main">
+            <span class="contact-box-label">Liên hệ Zalo</span>
+            <span class="contact-box-number">0898908101</span>
+          </div>
+          <div class="contact-box-actions">
+            <a class="contact-cta zalo" href="https://zalo.me/0898908101" target="_blank" rel="noopener" onclick="showRedirectToast('Zalo','assets/images/zalo.jpg')">
+              <img src="assets/images/zalo.jpg" width="22" height="22" style="border-radius:6px;object-fit:cover;flex-shrink:0;" alt="Zalo">
+              Liên hệ
+            </a>
+            <button class="contact-copy-btn" id="modalZaloCopyBtn" type="button" onclick="copyModalZalo()">Copy số</button>
+          </div>
+        </div>
+        <div class="inline-zalo-note">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <div>Nếu không mở được. <strong>Copy số</strong> rồi tìm trên Zalo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Redirect Toast -->
+  <div class="redirect-toast" id="redirectToast">
+    <img class="t-img" src="assets/images/fhd.jpg" style="width:28px;height:28px;border-radius:8px;object-fit:cover;flex-shrink:0;">
+    <div class="t-text">Đang chuyển đến FullHouse Dev</div>
+  </div>
+
+  <script>
+    const NAV_CTA = { text: "Xem dịch vụ", target: "source-code" };
+
+    function navScrollTo(id, options) {
+      options = options || {};
+      if (options.suppressInfoToast) {
+        suppressInfoToastUntil = Date.now() + 1200;
+        var infoToast = document.getElementById('infoToast');
+        if (infoToast) infoToast.classList.remove('show');
+      }
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function syncNavCTA() {
+      document.querySelectorAll('.js-nav-cta').forEach(el => {
+        el.textContent = NAV_CTA.text;
+        el.onclick = () => navScrollTo(NAV_CTA.target);
+      });
+    }
+
+    function bindBottomNav() {
+      document.querySelectorAll('.js-bottom-nav').forEach(el => {
+        el.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          var target = el.getAttribute('data-target');
+          if (target) navScrollTo(target, { suppressInfoToast: true });
+        });
+      });
+    }
+
+    history.scrollRestoration = "manual";
+
+    const PRODUCTS = [
+      {
+        id: "gpt-gmail",
+        label: "CHÍNH CHỦ",
+        gmailChip: true,
+        image: "assets/images/GPT.jpg",
+        name: "ChatGPT Pro Codex",
+        tag: "<span style='display:block;background:linear-gradient(135deg,#4338ca,#0ea5e9);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:700;'>GPT-5.4 PRO · Workspace Business Team</span>",
+        rawPrice: "149K",
+        oldPrice: "649,000đ",
+        perDay: "chỉ 4,900đ / ngày",
+        bullets: [
+          "Kích hoạt trong <b class='hl'>1 phút</b> (không cần mật khẩu)",
+          "Dùng <b class='hl'>Codex VSCode</b> không giới hạn",
+          "Truy cập <b class='hl'>Model cao cấp nhất</b> của ChatGPT",
+          "Truy cập <b class='hl'>Workspace Business Team</b>"
+        ]
+      },
+      {
+        id: "gpt",
+        image: "assets/images/GPT.jpg",
+        name: "ChatGPT Plus Codex",
+        tag: "GPT-5.4 · Planning Preview · Deep Research",
+        rawPrice: "99K",
+        oldPrice: "522,500đ",
+        perDay: "chỉ 3,000đ / ngày",
+        bullets: [
+          "Tài khoản sử dụng 1 mình",
+          "Cập nhật model ChatGPT mới nhất",
+          "Dùng <b class='hl'>Codex VSCode</b> không giới hạn",
+          "Truy cập mọi tính năng cao cấp <b class='hl'>Plus</b> của ChatGPT"
+        ]
+      },
+      {
+        id: "gemini",
+        image: "assets/images/gemini.jpg",
+        name: "Gemini Pro",
+        tag: "<span style='display:block;background:linear-gradient(90deg,#1a73e8 0%,#12a87a 30%,#f9ab00 60%,#e8453c 85%,#c2185b 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:700;'>Gemini 3.1 Pro · Veo 3 · NotebookLM</span>",
+        rawPrice: "99K",
+        oldPrice: "489,000đ",
+        perDay: "chỉ 3,000đ / ngày",
+        bullets: [
+          "Tài khoản sử dụng 1 mình",
+          "Truy cập mọi tính năng <b class='hl'>PRO</b> của Gemini",
+          "Truy cập <b class='hl'>Google Drive 2TB</b>, <b class='hl'>NotebookLM Pro</b>"
+        ]
+      },
+      {
+        id: "yt",
+        label: "CHÍNH CHỦ",
+        gmailChip: true,
+        image: "assets/images/YT.jpg",
+        name: "YouTube Premium",
+        tag: "Tặng kèm YT Music · Không quảng cáo",
+        rawPrice: "49K",
+        oldPrice: "105,000đ",
+        perDay: "chỉ 1,500đ / ngày",
+        bullets: [
+          "Kích hoạt thẳng vào <b class='hl'>Gmail chính chủ</b> của bạn",
+          "Truy cập mọi tính năng <b class='hl'>Premium</b> của Youtube",
+          "Chỉ cần cung cấp Gmail → <b class='hl'>kích hoạt trong 1 phút</b> (không cần mật khẩu)"
+        ]
+      },
+      {
+        id: "capcut",
+        image: "assets/images/CAPCUT.jpg",
+        name: "CapCut Pro",
+        tag: "Xuất 4K · Không watermark",
+        rawPrice: "49K",
+        oldPrice: "145,000đ",
+        perDay: "chỉ 1,500đ / ngày",
+        bullets: [
+          "Tài khoản sử dụng 1 mình",
+          "Xuất <b class='hl'>Video 4K · AI ULTRA HD</b>",
+          "Truy cập mọi tính năng cao cấp Pro của CapCut"
+        ]
+      }
+    ];
+
+    function productCard(p) {
+      return `
+        <article class="card">
+          <div class="head">
+            <div class="head-left">
+              <img class="head-ico" src="${p.image}" alt="${p.name}" loading="lazy" decoding="async" width="48" height="48">
+              <div class="head-text">
+                <h3 class="name">${p.name}</h3>
+                <p class="tag">${p.tag}</p>
+              </div>
+            </div>
+            <span class="badge ${p.label === 'CHÍNH CHỦ' ? 'red' : 'green'}">${p.label || "CÁ NHÂN"}</span>
+          </div>
+          <div class="price-row">
+            <div class="price">${p.rawPrice}</div>
+            <div class="old">Giá gốc: <s>${p.oldPrice}</s></div>
+          </div>
+          <div class="day">${p.perDay}</div>
+          ${p.gmailChip ? `<span class="gmail-chip"><svg width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='#15803d' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'><polyline points='20 6 9 17 4 12'/></svg>Nâng cấp chính chủ, không cần đưa mật khẩu</span>` : ""}
+          <div class="cta-row">
+            <button class="cta buy" onclick="openProduct('${p.id}')">Đăng ký ngay</button>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderProducts() {
+      const grid = document.getElementById("productGrid");
+      grid.innerHTML = PRODUCTS.map(productCard).join("");
+    }
+
+    function openProduct(id) {
+      const p = PRODUCTS.find(x => x.id === id);
+      if (!p) return;
+      resetModalZaloCopyState();
+      document.getElementById("mName").textContent = p.name;
+      const ico = document.getElementById("mHeadIco");
+      ico.src = p.image;
+      ico.alt = p.name;
+      ico.style.display = "block";
+      document.getElementById("mDescWrap").style.display = "block";
+      document.getElementById("mBullets").innerHTML = p.bullets.map(item => `<li style="display:flex;align-items:flex-start;gap:8px;"><svg style="flex-shrink:0;margin-top:2px;" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>${item}</span></li>`).join("");
+      document.getElementById("productModal").classList.add("open");
+      document.body.style.overflow = "hidden";
+    }
+
+    function openDevModal() {
+      // reset accordion
+      const list = document.getElementById("devDetailList");
+      const arrow = document.getElementById("devDetailArrow");
+      list.style.display = "none";
+      arrow.style.transform = "";
+      resetDevZaloCopyState();
+      document.getElementById("devModal").classList.add("open");
+      document.body.style.overflow = "hidden";
+    }
+    function closeDevModal() {
+      resetDevZaloCopyState();
+      document.getElementById("devModal").classList.remove("open");
+      document.body.style.overflow = "";
+    }
+    function toggleDevDetail(btn) {
+      const list = document.getElementById("devDetailList");
+      const arrow = document.getElementById("devDetailArrow");
+      const open = list.style.display !== "none";
+      list.style.display = open ? "none" : "block";
+      arrow.style.transform = open ? "" : "rotate(180deg)";
+      arrow.style.transition = "transform 0.2s";
+    }
+
+    function openCustomModal(title, bullets) {
+      document.getElementById("mName").textContent = title;
+      document.getElementById("mHeadIco").style.display = "none";
+      const bulletsEl = document.getElementById("mBullets");
+      const descWrap = document.getElementById("mDescWrap");
+      if (bullets && bullets.length) {
+        bulletsEl.innerHTML = bullets.map(b => `
+          <li style="display:flex;align-items:flex-start;gap:8px;padding:6px 0;font-size:0.84em;color:#334155;line-height:1.5;">
+            <svg style="flex-shrink:0;margin-top:2px;" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>${b}</span>
+          </li>`).join("");
+        bulletsEl.style.listStyle = "none";
+        bulletsEl.style.padding = "0";
+        bulletsEl.style.margin = "0";
+        descWrap.style.display = "";
+      } else {
+        descWrap.style.display = "none";
+      }
+      document.getElementById("productModal").classList.add("open");
+      document.body.style.overflow = "hidden";
+    }
+
+    function resetModalZaloCopyState() {
+      var copyBtn = document.getElementById('modalZaloCopyBtn');
+      if (!copyBtn) return;
+      if (copyBtn._resetTimer) {
+        clearTimeout(copyBtn._resetTimer);
+        copyBtn._resetTimer = null;
+      }
+      copyBtn.classList.remove('is-copied');
+      copyBtn.textContent = 'Copy số';
+    }
+
+    function copyModalZalo() {
+      var copyBtn = document.getElementById('modalZaloCopyBtn');
+      if (!copyBtn) return;
+      copyTextWithFallback('0898908101').then(function () {
+        if (copyBtn._resetTimer) {
+          clearTimeout(copyBtn._resetTimer);
+        }
+        copyBtn.classList.add('is-copied');
+        copyBtn.textContent = 'Đã copy';
+        copyBtn._resetTimer = setTimeout(function () {
+          copyBtn.classList.remove('is-copied');
+          copyBtn.textContent = 'Copy số';
+          copyBtn._resetTimer = null;
+        }, 1800);
+      }).catch(function () {
+        showStatusToast('Không thể sao chép tự động. Vui lòng sao chép thủ công: 0898908101', 'assets/images/zalo.jpg');
+      });
+    }
+
+    function resetDevZaloCopyState() {
+      var copyBtn = document.getElementById('devZaloCopyBtn');
+      if (!copyBtn) return;
+      if (copyBtn._resetTimer) {
+        clearTimeout(copyBtn._resetTimer);
+        copyBtn._resetTimer = null;
+      }
+      copyBtn.classList.remove('is-copied');
+      copyBtn.textContent = 'Copy số';
+    }
+
+    function copyDevZalo() {
+      var copyBtn = document.getElementById('devZaloCopyBtn');
+      if (!copyBtn) return;
+      copyTextWithFallback('0898908101').then(function () {
+        if (copyBtn._resetTimer) {
+          clearTimeout(copyBtn._resetTimer);
+        }
+        copyBtn.classList.add('is-copied');
+        copyBtn.textContent = 'Đã copy';
+        copyBtn._resetTimer = setTimeout(function () {
+          copyBtn.classList.remove('is-copied');
+          copyBtn.textContent = 'Copy số';
+          copyBtn._resetTimer = null;
+        }, 1800);
+      }).catch(function () {
+        showStatusToast('Không thể sao chép tự động. Vui lòng sao chép thủ công: 0898908101', 'assets/images/zalo.jpg');
+      });
+    }
+
+    function closeModal() {
+      resetModalZaloCopyState();
+      document.getElementById("productModal").classList.remove("open");
+      document.body.style.overflow = "";
+    }
+
+    let infoToastObserver = null;
+    let infoToastShown = false;
+    let suppressInfoToastUntil = 0;
+
+    function shouldSuppressInfoToast() {
+      return Date.now() < suppressInfoToastUntil;
+    }
+
+    function showInfoToast(force) {
+      const toast = document.getElementById('infoToast');
+      if (!toast) return;
+      if (!force && shouldSuppressInfoToast()) return;
+      if (!force && infoToastShown) return;
+      infoToastShown = true;
+      toast.classList.remove('show');
+      void toast.offsetWidth;
+      toast.classList.add('show');
+    }
+
+    function startInfoToastObserver() {
+      const target = document.getElementById('products');
+      if (!target || !('IntersectionObserver' in window) || infoToastObserver) return;
+
+      infoToastObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          setTimeout(function () {
+            if (shouldSuppressInfoToast()) return;
+            showInfoToast(false);
+            if (!infoToastShown || !infoToastObserver) return;
+            infoToastObserver.unobserve(target);
+            infoToastObserver.disconnect();
+            infoToastObserver = null;
+          }, 300);
+        });
+      }, { threshold: 0.15 });
+
+      infoToastObserver.observe(target);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      window.scrollTo(0, 0);
+      startInfoToastObserver();
+    });
+
+    function showRedirectToast(label, img) {
+      const toast = document.getElementById('redirectToast');
+      const toastImg = toast.querySelector('.t-img');
+      const toastTxt = toast.querySelector('.t-text');
+      if (toastImg && img) toastImg.src = img;
+      if (toastTxt && label) { toastTxt.textContent = "Đang chuyển đến " + label; }
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2600);
+    }
+
+    function showStatusToast(message, img) {
+      const toast = document.getElementById('redirectToast');
+      const toastImg = toast.querySelector('.t-img');
+      const toastTxt = toast.querySelector('.t-text');
+      if (toastImg && img) toastImg.src = img;
+      if (toastTxt && message) { toastTxt.textContent = message; }
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2800);
+    }
+
+    function copyTextWithFallback(text) {
+      // 1. Try modern Clipboard API (works on HTTPS / trusted contexts)
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text).catch(function () {
+          return tryExecCommandCopy(text);
+        });
+      }
+      return tryExecCommandCopy(text);
+    }
+
+    function tryExecCommandCopy(text) {
+      return new Promise(function (resolve, reject) {
+        try {
+          var input = document.createElement("textarea");
+          input.value = text;
+          input.setAttribute("readonly", "");
+          // Must be visible/interactive for execCommand to work in WebView
+          input.style.cssText = "position:fixed;top:0;left:0;width:2em;height:2em;padding:0;border:none;outline:none;box-shadow:none;background:transparent;font-size:16px;opacity:0;z-index:-1;";
+          document.body.appendChild(input);
+          input.focus();
+          input.select();
+          input.setSelectionRange(0, text.length);
+          var copied = document.execCommand("copy");
+          document.body.removeChild(input);
+          if (copied) { resolve(); return; }
+          reject(new Error("copy_failed"));
+        } catch (err) {
+          reject(err);
+        }
+      });
+    }
+
+    function showCopyPrompt(text, message) {
+      // Final fallback: window.prompt lets user long-press to copy in any WebView
+      window.prompt("Giữ để sao chép:", text);
+      // prompt() is synchronous — show toast after it closes
+      showStatusToast(message || ("Đã sao chép: " + text), "");
+    }
+
+    function bindZaloCopyButtons() {
+      var copyButtons = document.querySelectorAll("[data-zalo-copy]");
+      copyButtons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var zaloId = btn.getAttribute("data-zalo-copy") || "0898908101";
+          copyTextWithFallback(zaloId).then(function () {
+            showStatusToast("Đã sao chép số Zalo: " + zaloId, "assets/images/zalo.jpg");
+          }).catch(function () {
+            showCopyPrompt(zaloId, "Đã sao chép số Zalo: " + zaloId);
+          });
+        });
+      });
+    }
+
+    function commOpenPopup() {
+      var popup = document.getElementById('commPopup');
+      if (!popup) return;
+      popup.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function commClosePopup() {
+      var popup = document.getElementById('commPopup');
+      if (!popup) return;
+      popup.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function commCopyLink(btn, url, label, img) {
+      var resetTimer = btn ? btn._resetTimer : null;
+      copyTextWithFallback(url).then(function () {
+        if (!btn) return;
+        if (resetTimer) {
+          clearTimeout(resetTimer);
+        }
+        btn.classList.add('is-copied');
+        btn.lastChild.textContent = 'Đã copy';
+        btn._resetTimer = setTimeout(function () {
+          btn.classList.remove('is-copied');
+          btn.lastChild.textContent = 'Copy';
+          btn._resetTimer = null;
+        }, 1800);
+      }).catch(function () {
+        showCopyPrompt(url, label ? ("Đã copy: " + label) : "Đã copy link");
+      });
+    }
+
+    function zaloOpenPopup() {
+      var popup = document.getElementById('zaloPopup');
+      if (!popup) return;
+      popup.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function zaloClosePopup() {
+      var popup = document.getElementById('zaloPopup');
+      if (!popup) return;
+      popup.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function copyContactZalo() {
+      var copyBtn = document.getElementById('zaloCopyBtn');
+      var copyLabel = copyBtn ? copyBtn.querySelector('.copy-label') : null;
+      var resetTimer = copyBtn ? copyBtn._resetTimer : null;
+      copyTextWithFallback('0898908101').then(function () {
+        if (!copyBtn || !copyLabel) return;
+        if (resetTimer) {
+          clearTimeout(resetTimer);
+        }
+        copyBtn.classList.add('is-copied');
+        copyLabel.textContent = 'Đã copy';
+        copyBtn._resetTimer = setTimeout(function () {
+          copyBtn.classList.remove('is-copied');
+          copyLabel.textContent = 'Copy số';
+          copyBtn._resetTimer = null;
+        }, 1800);
+      }).catch(function () {
+        showCopyPrompt('0898908101', "Đã sao chép số Zalo: 0898908101");
+      });
+    }
+
+    function fhdOpenPopup() {
+      var popup = document.getElementById('fhdPopup');
+      if (!popup) return;
+      popup.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function fhdClosePopup() {
+      var popup = document.getElementById('fhdPopup');
+      if (!popup) return;
+      popup.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function fhdCopyLink() {
+      var url = 'https://fullhousedev.com/khoa-hoc/course-cpp-beginner/?ref=4de39e7557';
+      copyTextWithFallback(url).then(function () {
+        showStatusToast('Đã copy link FullHouse Dev', 'assets/images/fhd.jpg');
+        fhdClosePopup();
+      }).catch(function () {
+        showCopyPrompt('https://fullhousedev.com/khoa-hoc/course-cpp-beginner/?ref=4de39e7557', "Đã copy link FullHouse Dev");
+      });
+    }
+
+    function openFirstProduct(e) {
+      e.preventDefault();
+      suppressInfoToastUntil = 0;
+      var target = document.getElementById('products');
+      if (target) {
+        var topbar = document.querySelector('.topbar');
+        var topbarH = topbar ? topbar.offsetHeight : 68;
+        var toast = document.getElementById('infoToast');
+        if (toast) {
+          showInfoToast(true);
+        }
+        var toastH = toast ? toast.offsetHeight + 16 : 0;
+        var top = target.getBoundingClientRect().top + window.scrollY - topbarH - toastH;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }
+    }
+
+    renderProducts();
+    syncNavCTA();
+
+    // ── Info Toast: trigger when #products scrolls into view ──
+    document.addEventListener('DOMContentLoaded', function () {
+      var toast = document.getElementById('infoToast');
+      var okBtn = document.getElementById('infoToastOk');
+      if (!toast || !okBtn) return;
+
+      function closeInfoToast() {
+        toast.classList.remove('show');
+      }
+
+      okBtn.addEventListener('click', closeInfoToast);
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      bindBottomNav();
+      bindZaloCopyButtons();
+    });
+
+    function normalizeRestoredUiState() {
+      document.querySelectorAll('.modal.open, .link-popup.open').forEach(function (el) {
+        el.classList.remove('open');
+      });
+
+      ['welcomePopup', 'welcomeModal', 'welcomeOverlay', 'wlcPopup'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (!el) return;
+        el.classList.remove('open', 'show', 'active');
+        el.style.display = 'none';
+      });
+
+      document.body.classList.remove('modal-open', 'overlay-open', 'no-scroll');
+      document.body.style.overflow = '';
+
+      var redirectToast = document.getElementById('redirectToast');
+      if (redirectToast) redirectToast.classList.remove('show');
+      var infoToast = document.getElementById('infoToast');
+      if (infoToast) infoToast.classList.remove('show');
+    }
+
+    // Fix bfcache/back-forward restore trong in-app browser (TikTok, Zalo...):
+    // luôn dọn state UI và ép tải lại cùng URL để tránh hiện snapshot giao diện cũ.
+    window.addEventListener('pageshow', function (event) {
+      normalizeRestoredUiState();
+
+      var nav = null;
+      if (window.performance && typeof window.performance.getEntriesByType === 'function') {
+        var entries = window.performance.getEntriesByType('navigation');
+        if (entries && entries.length) nav = entries[0];
+      }
+      var isBackForward = !!event.persisted || (nav && nav.type === 'back_forward');
+      if (!isBackForward) return;
+
+      var reloadKey = '__bingenz_bf_reloaded__';
+      try {
+        if (sessionStorage.getItem(reloadKey) === '1') {
+          sessionStorage.removeItem(reloadKey);
+          return;
+        }
+        sessionStorage.setItem(reloadKey, '1');
+      } catch (e) {}
+
+      location.replace(location.pathname + location.search);
+    });
+  </script>
+
+  <!-- Info Toast (slides from top on scroll to products) -->
+  <div class="info-toast" id="infoToast" role="dialog" aria-modal="true" aria-label="Thông tin tài khoản">
+    <div class="info-toast-head">
+      <span class="info-toast-ico">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21a8 8 0 0 0-16 0"/><circle cx="12" cy="7" r="4"/></svg>
+      </span>
+      <span class="info-toast-title">Tài khoản dùng cá nhân</span>
+    </div>
+    <ul class="info-toast-list">
+      <li>
+        <span class="info-toast-check"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        1 mình bạn dùng 1 tài khoản
+      </li>
+      <li>
+        <span class="info-toast-check"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Kích hoạt trong 1 phút
+      </li>
+      <li>
+        <span class="info-toast-check"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Bảo hành toàn bộ thời gian sử dụng
+      </li>
+      <li>
+        <span class="info-toast-check"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Truy cập mọi tính năng cao cấp
+      </li>
+    </ul>
+    <button class="info-toast-ok" id="infoToastOk">Đã hiểu, đăng ký ngay →</button>
+  </div>
+
+  <!-- Bottom Nav (mobile only) -->
+  <nav class="bottom-nav" aria-label="Bottom navigation">
+    <div class="bottom-nav-float">
+      <button type="button" class="chip js-bottom-nav" data-target="home" style="font-size:0.86em;padding:8px 14px;">Home</button>
+      <button type="button" class="chip js-bottom-nav" data-target="contact" style="font-size:0.86em;padding:8px 14px;">Liên hệ</button>
+      <button type="button" class="chip primary js-bottom-nav" data-target="source-code" style="font-size:0.86em;padding:8px 16px;">Xem dịch vụ</button>
+    </div>
+  </nav>
+</body>
+          </html>
