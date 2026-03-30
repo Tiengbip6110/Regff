@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/qvjz8QFW/Logo.png" />
+    <title>Happy birthday 🎂🎂🎂</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/gift.css">
+</head>
+
+<body>
+    <div id="transition-overlay"></div>
+    <div id="gift-overlay">
+        <div class="gift-box-container">
+            <div class="gift-box">🎁</div>
+            <div class="gift-text">Món quà tặng em</div>
+        </div>
+    </div>
+
+    <div id="wrapper" style="opacity: 0; visibility: hidden;">
+
+        <div class="content">
+            <div class="left">
+                <div class="title">
+                    <h1 class="happy">
+                        <span style="--t: 4s;">H</span>
+                        <span style="--t: 4.2s;">a</span>
+                        <span style="--t: 4.4s;">p</span>
+                        <span style="--t: 4.6s;">p</span>
+                        <span style="--t: 4.8s;">
+                            y
+                            <div class="hat">
+                                <img src="./style/material/hat.png" alt="" width="130">
+                            </div>
+                        </span>
+                    </h1>
+                    <h1 class="birthday">
+                        <span style="--t: 5s;">B</span>
+                        <span style="--t: 5.2s;">i</span>
+                        <span style="--t: 5.4s;">r</span>
+                        <span style="--t: 5.6s;">t</span>
+                        <span style="--t: 5.8s;">h</span>
+                        <span style="--t: 6s;">d</span>
+                        <span style="--t: 6.2s;">a</span>
+                        <span style="--t: 6.4s;">y</span>
+                    </h1>
+
+                </div>
+                <div class="date__of__birth">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="box__account">
+                    <div class="image">
+                        <img src="./style/img/Anh (1).jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <span>Matsumoto Reiyo</span>
+                    </div>
+                    <div class="balloon_one">
+                        <img width="400px" src="./style/material/balloon.png" alt="">
+                    </div>
+                    <div class="balloon_two">
+                        <img width="400px" src="./style/material/balloon.png" alt="">
+                    </div>
+                </div>
+
+                <span class="day">
+
+                </span>
+                <span class="month"></span>
+            </div>
+
+            <div class="btn">
+                <div class="btn__floating">
+                    <button id="btn__letter">
+                        Mở thư
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="decorate_star star1" style="--t: 15s;"></div>
+        <div class="decorate_star star2" style="--t: 15.2s;"></div>
+        <div class="decorate_star star3" style="--t: 15.4s;"></div>
+        <div class="decorate_star star4" style="--t: 15.6s;"></div>
+        <div class="decorate_star star5" style="--t: 15.8s;"></div>
+        <div class="funny_icon">
+            <img src="https://i.pinimg.com/originals/3f/4e/d3/3f4ed3cb1539cb42dc93b78020a3ef55.gif" alt="" width="200">
+        </div>
+
+
+        <div class="box__letter">
+            <div class="letter__border">
+                <div class="letter">
+                    <div class="title__letter">
+                    </div>
+                    <div class="content__letter">
+                        <div class="text__letter">
+                            <p></p>
+                            <div id="btn__start_container">
+                                <button id="btn__start">Start</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img id="mewmew" width="100"
+                    src="https://i.pinimg.com/originals/4e/89/d3/4e89d3e4ec4b1f59b1664e880a875c65.gif" alt="">
+                <div class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <div id="image-jump-container"></div>
+        <div id="star-container"></div>
+        <canvas id="fireworks"></canvas>
+    </div>
+    <audio id="bgMusic" src="./style/nhac.mp3" loop></audio>
+
+    <div id="gift-section" style="display: none;">
+        <canvas id="starfield"></canvas>
+        <canvas id="bg-particles"></canvas>
+        <canvas id="particles"></canvas>
+        <canvas id="fw-cnv"></canvas>
+
+        <div id="lb">
+            <button id="lb-prev"
+                style="position:fixed; left:20px; z-index:2100; background:none; border:none; color:#fff; font-size:2.5rem; cursor:pointer;"
+                onclick="changeImg(-1)"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="lb-next"
+                style="position:fixed; right:20px; z-index:2100; background:none; border:none; color:#fff; font-size:2.5rem; cursor:pointer;"
+                onclick="changeImg(1)"><i class="fa-solid fa-angle-right"></i></button>
+            <div id="lb-img-wrap">
+                <img id="lb-img" src="">
+                <button id="lb-close"
+                    style="position:absolute; top:-15px; right:-15px; z-index:2100; background:#f43f5e; border:2px solid #fff; border-radius: 50%; width: 35px; height: 35px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:1.5rem; cursor:pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.5);"
+                    onclick="closeLB()">×</button>
+            </div>
+            <div id="lb-reactions">
+                <div class="react-btn" onmousedown="startReact('👍', event)" onmouseup="stopReact()"
+                    ontouchstart="startReact('👍', event)" ontouchend="stopReact()">👍</div>
+                <div class="react-btn" onmousedown="startReact('❤️', event)" onmouseup="stopReact()"
+                    ontouchstart="startReact('❤️', event)" ontouchend="stopReact()">❤️</div>
+                <div class="react-btn" onmousedown="startReact('🥰', event)" onmouseup="stopReact()"
+                    ontouchstart="startReact('🥰', event)" ontouchend="stopReact()">🥰</div>
+                <div class="react-btn" onmousedown="startReact('😂', event)" onmouseup="stopReact()"
+                    ontouchstart="startReact('😂', event)" ontouchend="stopReact()">😂</div>
+                <div class="react-btn" onmousedown="startReact('🥹', event)" onmouseup="stopReact()"
+                    ontouchstart="startReact('🥹', event)" ontouchend="stopReact()">🥹</div>
+                <div class="react-btn" onmousedown="startReact('😡', event)" onmouseup="stopReact()"
+                    ontouchstart="startReact('😡', event)" ontouchend="stopReact()">😡</div>
+            </div>
+        </div>
+
+        <div class="screen" id="s-hold">
+            <div style="position:relative">
+                <button class="hold-btn" id="hold-btn">🎁</button>
+            </div>
+            <div class="h-progress-wrap">
+                <div id="h-progress-bar"></div>
+            </div>
+            <div class="hold-lbl"> Nhấn Giữ</div>
+        </div>
+
+        <div class="screen off" id="s-gift">
+            <div class="scene" id="sc-float">
+                <button id="btn-globe" onclick="goToSphere()"><i class="fa-solid fa-earth-asia"></i></button>
+            </div>
+            <div class="scene" id="sc-sphere">
+                <div id="sphere-wrap" class="sphere-3d-wrap"></div>
+                <div id="sphere-grid" class="sphere-grid"></div>
+                <button id="back-btn"
+                    style="display:none; margin-top:20px; padding:8px 15px; border-radius:20px; border:none; background: #4f46e5; box-shadow: 0 4px 10px rgba(0,0,0,0.4); color:#fff;"
+                    onclick="collapse()">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./style/script.js"></script>
+<script src="./style/gift.js"></script>
+
+</html>
