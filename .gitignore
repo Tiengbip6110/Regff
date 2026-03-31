@@ -1,0 +1,4 @@
+bot_output.log
+bot_pid.txt
+user_data.db
+__pycache__/
